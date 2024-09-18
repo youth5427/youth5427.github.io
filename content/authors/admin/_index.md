@@ -15,7 +15,7 @@ status:
 # Organizations/Affiliations
 organizations: 
 - name: Jeonbuk National University
- url: "www.jbnu.ac.kr"
+ url: "http://www.jbnu.ac.kr"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
