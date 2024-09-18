@@ -13,8 +13,8 @@ status:
   icon: 💻
 
 # Organizations/Affiliations
-organizations: Jeonbuk National University
-- name: 전북대학교
+organizations: 
+- name: Jeonbuk National University
  url: "www.jbnu.ac.kr"
 
 # Short bio (displayed in user profile at end of posts)
