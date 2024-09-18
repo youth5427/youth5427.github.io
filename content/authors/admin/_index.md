@@ -1,21 +1,21 @@
 ---
 # Display name
-title: 유수현
+title: Yoo SuHyeon
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: ''
+role: 'Computer Science Student'
 
 # Status emoji
-status:
+status: 
   icon: 💻
 
 # Organizations/Affiliations
-#organizations:
-#- name: 腾讯
-#  url: ""
+organizations: Jeonbuk National University
+- name: 전북대학교
+ url: "www.jbnu.ac.kr"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
