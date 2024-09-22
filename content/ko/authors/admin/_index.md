@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Yoo SuHyeon
+title: 유 수현
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: 'Computer Science Student'
+role: '컴퓨터 공학과 학생'
 
 # Status emoji
 status: 
@@ -14,7 +14,7 @@ status:
 
 # Organizations/Affiliations
 organizations:
-  - name: Jeonbuk National University
+  - name: 전북대학교
     url: "http://www.jbnu.ac.kr"
 
 
@@ -67,6 +67,6 @@ social:
 #email: ""
 ---
 
-Alice Wu is a computer engineering student at Jeonbuk National University. He is interested in mobile and web service. 
+유수현은 전북대학교 컴퓨터공학과 학생입니다. 그는 모바일과 웹 서비스에 관심이 있습니다.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.

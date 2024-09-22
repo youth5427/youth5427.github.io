@@ -28,9 +28,9 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
+    - name: 기계학습
       tag: ML
-    - name: Computer Vision
+    - name: 컴퓨터 비전
       tag: CV
     - name: NLP
       tag: NLP
