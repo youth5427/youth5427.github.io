@@ -10,6 +10,15 @@ main:
   - name: Resumé
     url: about/
     weight: 20
-  - name: TestPage
+
+  - name: Projects
     url: /
     weight: 20
+  - parent: Projects
+    name: First
+    url: /
+    weight: 30
+  - parent: Projects
+    name: second
+    url: /
+    weight: 30
