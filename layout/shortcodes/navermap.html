@@ -3,15 +3,14 @@
 <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=wj58af9275"></script>
 <script>
     var mapOptions = {
-        // 템플릿 변수들을 안전하게 변환하여 JavaScript에 전달
-        center: new naver.maps.LatLng({{ .Get "latitude" | safeJS }}, {{ .Get "longitude" | safeJS }}),
+        center: new naver.maps.LatLng({{ .Get "latitude" }}, {{ .Get "longitude" }}),  // Shortcode 파라미터로 좌표값 받음
         zoom: 15  // 줌 레벨
     };
 
     var map = new naver.maps.Map('map', mapOptions);
 
     var marker = new naver.maps.Marker({
-        position: new naver.maps.LatLng({{ .Get "latitude" | safeJS }}, {{ .Get "longitude" | safeJS }}),
+        position: new naver.maps.LatLng({{ .Get "latitude" }}, {{ .Get "longitude" }}),
         map: map
     });
 </script>
