@@ -67,6 +67,6 @@ social:
 #email: ""
 ---
 
-Alice Wu is a computer engineering student at Jeonbuk National University. He is interested in mobile and web service. 
+Suhyeon yoo is a computer engineering student at Jeonbuk National University. He is interested in mobile and web service. 
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
