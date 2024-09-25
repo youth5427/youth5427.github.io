@@ -17,8 +17,9 @@ title: Hello
 # Choose the user profile to display
 # This should be the username (folder name) of a profile in your `content/authors/` folder.
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
-author: admin
-# 지도 추가
-content: |
-  {{< navermap latitude="35.84601324617979" longitude="127.13444961966684" >}}
+author: admin 
 ---
+
+## 지도 위치
+
+{{< navermap latitude="35.84601324617979" longitude="127.13444961966684" >}}
