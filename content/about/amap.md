@@ -6,4 +6,4 @@ draft: false
 
 ## 네이버 지도
 
-{{< navermap clientId="wj58af9275" latitude="37.5665" longitude="126.9780" >}}
+{{< navermap latitude="35.84601778960222" longitude="127.13441641898292" >}}
