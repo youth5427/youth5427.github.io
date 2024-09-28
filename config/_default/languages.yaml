@@ -24,9 +24,9 @@ ko:
 en-us:
   languageCode: en
   contentDir: content/en
-  title: 영어 웹사이트 제목...
+  title: SuHyeon Yoo Portfolio
   params:
-    description: 영어 사이트 설명...
+    description: This is English page.
   menu:
     main:
       - name: "home"
