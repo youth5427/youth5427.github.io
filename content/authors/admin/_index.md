@@ -67,6 +67,6 @@ social:
 #email: ""
 ---
 
-Suhyeon yoo is a computer engineering student at Jeonbuk National University. He is interested in mobile and web service. 
+유수현은 전북대학교 컴퓨터공학과 학생입니다. 그는 모바일과 웹 서비스에 관심이 있습니다.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
