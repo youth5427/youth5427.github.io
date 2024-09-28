@@ -19,3 +19,4 @@ title: Hello
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin 
 ---
+{{< navermap >}}
