@@ -1,10 +1,10 @@
 ---
-title: "네이버 지도 표시"
-date: 2024-09-26
-draft: false
+# title: "네이버 지도 표시"
+# date: 2024-09-26
+# draft: false
 ---
 
-## 네이버 지도
+<!-- ## 네이버 지도 -->
 
 <!-- params.yaml에서 값을 가져와 지도를 표시 -->
 {{< navermap >}}
