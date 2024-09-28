@@ -1,12 +1,12 @@
 ---
 # Display name
-title: 유 수현
+title: SuHyeon Yoo
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: '컴퓨터 공학과 학생'
+role: 'Computer engineering Student'
 
 # Status emoji
 status: 
@@ -14,7 +14,7 @@ status:
 
 # Organizations/Affiliations
 organizations:
-  - name: 전북대학교
+  - name: Jeonbuk National University
     url: "http://www.jbnu.ac.kr"
 
 
@@ -68,5 +68,6 @@ social:
 ---
 
 유수현은 전북대학교 컴퓨터공학과 학생입니다. 그는 모바일과 웹 서비스에 관심이 있습니다.
+SuHyeon Yoo is a student of JBNU. He is interested in Mobile and Web Service.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.

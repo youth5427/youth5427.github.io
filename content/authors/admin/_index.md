@@ -6,7 +6,7 @@ title: Yoo SuHyeon
 superuser: true
 
 # Role/position
-role: 'Computer engineering Student'
+role: 컴퓨터공학부 학생'
 
 # Status emoji
 status: 
@@ -14,7 +14,7 @@ status:
 
 # Organizations/Affiliations
 organizations:
-  - name: Jeonbuk National University
+  - name: 전북대
     url: "http://www.jbnu.ac.kr"
 
 
