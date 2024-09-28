@@ -22,7 +22,7 @@ ko:
 #        weight: 1
 
 en-us:
-  languageCode: en
+  languageCode: en-us
   contentDir: content/en
   title: SuHyeon Yoo Portfolio
   params:

@@ -14,7 +14,7 @@ status:
 
 # Organizations/Affiliations
 organizations:
-  - name: 전북대
+  - name: 전북대학교
     url: "http://www.jbnu.ac.kr"
 
 
