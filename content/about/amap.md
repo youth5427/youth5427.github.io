@@ -2,7 +2,6 @@
 # title: "네이버 지도 표시"
 # date: 2024-09-26
 # draft: false
-widget: about
 ---
 
 <!-- ## 네이버 지도 -->
