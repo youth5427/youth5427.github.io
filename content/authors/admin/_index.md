@@ -6,7 +6,7 @@ title: Yoo SuHyeon
 superuser: true
 
 # Role/position
-role: 컴퓨터공학부 학생'
+role: 컴퓨터공학부 학생
 
 # Status emoji
 status: 
