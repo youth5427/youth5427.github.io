@@ -26,12 +26,12 @@ en-us:
   contentDir: content/en
   title: 영어 웹사이트 제목...
   params:
-    description: 한국어 사이트 설명...
+    description: 영어 사이트 설명...
   menu:
     main:
-      - name: "홈"
+      - name: "home"
         url: '/'
         weight: 1
-      - name: "소개"
+      - name: "about"
         url: '#about'
         weight: 2
