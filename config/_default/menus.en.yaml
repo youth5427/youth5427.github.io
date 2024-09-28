@@ -4,21 +4,21 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: 홈
+  - name: Home
     url: /
     weight: 10
-  - name: 관련
+  - name: about
     url: about/
     weight: 20
 
-  - name: 프로젝트
+  - name: Projects
     url: /
     weight: 20
-  - parent: 프로젝트
-    name: 첫 번째
+  - parent: Projects
+    name: First
     url: /
     weight: 30
-  - parent: 프로젝트
-    name: 두 번째
+  - parent: Projects
+    name: second
     url: /
     weight: 30
