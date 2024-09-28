@@ -20,18 +20,3 @@ en:
 #      - name: 传
 #        url: '#about'
 #        weight: 1
-
-ko:
-  languageCode: ko
-  contentDir: content/ko
-  title: 한국어 웹사이트 제목...
-  params:
-    description: 한국어 사이트 설명...
-  menu:
-    main:
-      - name: "홈"
-        url: '/'
-        weight: 1
-      - name: "소개"
-        url: '#about'
-        weight: 2
