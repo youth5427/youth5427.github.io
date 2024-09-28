@@ -21,8 +21,8 @@ ko:
 #        url: '#about'
 #        weight: 1
 
-en-us:
-  languageCode: en-us
+en:
+  languageCode: en
   contentDir: content/en
   title: SuHyeon Yoo Portfolio
   params:
