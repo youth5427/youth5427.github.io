@@ -11,14 +11,14 @@ main:
     url: about/
     weight: 20
 
-  - name: 프로젝트
+  - name: 기타 프로젝트
     url: /
-    weight: 20
-  - parent: 프로젝트
+    weight: 30
+  - parent: 기타 프로젝트
     name: 첫 번째
     url: /
     weight: 30
-  - parent: 프로젝트
+  - parent: 기타 프로젝트
     name: 두 번째
     url: /
-    weight: 30
+    weight: 40
