@@ -26,13 +26,13 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: All
+    - name: 전체
       tag: '*'
-    - name: Mobile Development
+    - name: 모바일 개발
       tag: MD
-    - name: Web Development
+    - name: 웹 개발
       tag: WD
-    - name: Others
+    - name: 기타
       tag: etc
 
 design:
