@@ -1,8 +1,8 @@
 ---
-title: Recommendation Systems
-summary: Write about your project here...
+title: 밥한끼
+summary: GPT API기반 글자 인식 및 메뉴 추천 서비스
 tags:
-  - ML
-date: 2022-01-01
-external_link: http://github.com
+  - WD
+date: 2024-01-26
+external_link: https://drive.google.com/drive/folders/1dFReNfh7t1GjP6GZzBDtSO07G9aLVPiX?usp=drive_link
 ---
