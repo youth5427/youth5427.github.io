@@ -11,14 +11,38 @@ main:
     url: about/
     weight: 20
 
-  - name: 기타 프로젝트
+  - name: 모바일 개발
     url: /
     weight: 30
-  - parent: 기타 프로젝트
+  - parent: 모바일 개발
     name: 첫 번째
     url: /
-    weight: 40
-  - parent: 기타 프로젝트
+    weight: 30
+  - parent: 모바일 개발
     name: 두 번째
     url: /
     weight: 30
+  
+  - name: 웹 개발
+    url: /
+    weight: 40
+  - parent: 웹 개발
+    name: 첫 번째
+    url: /
+    weight: 40
+  - parent: 웹 개발
+    name: 두 번째
+    url: /
+    weight: 40
+
+  - name: 기타 프로젝트
+    url: /
+    weight: 50
+  - parent: 기타 프로젝트
+    name: 첫 번째
+    url: /
+    weight: 50
+  - parent: 기타 프로젝트
+    name: 두 번째
+    url: /
+    weight: 50
