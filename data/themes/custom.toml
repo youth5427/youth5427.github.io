@@ -1,12 +1,13 @@
 # Essentially Minimal theme but with constant home section bg color.
 name = "Starter Blog"
 
+# 여기를 수정하면 색을 바꿀 수 있음.
 [light]
   # Primary
   primary = "#2962ff"
 
   # Menu
-  menu_primary = "rgb(26, 114, 201)"
+  menu_primary = "rgb(247, 250, 252)"
   menu_text = "#34495e"
   menu_text_active = "#2962ff"
   menu_title = "#2b2b2b"
