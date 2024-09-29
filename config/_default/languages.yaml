@@ -6,7 +6,7 @@
 ko:
   languageCode: ko
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/ko
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
@@ -25,13 +25,13 @@ en:
   languageCode: en
   contentDir: content/en
   title: SuHyeon Yoo Portfolio
-  params:
-    description: This is English page.
-  menu:
-    main:
-      - name: "home"
-        url: '/'
-        weight: 1
-      - name: "about"
-        url: '#about'
-        weight: 2
+  # params:
+  #   description: This is English page.
+  # menu:
+  #   main:
+  #     - name: "home"
+  #       url: '/'
+  #       weight: 1
+  #     - name: "about"
+  #       url: '#about'
+  #       weight: 2
