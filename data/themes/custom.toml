@@ -11,6 +11,7 @@ name = "Starter Blog"
   menu_text_active = "#2962ff"
   menu_title = "#2b2b2b"
 
+ background = "rgb(26, 114, 201)"
   # Home sections
   home_section_odd = "rgb(247, 250, 252)"
   home_section_even = "rgb(247, 250, 252)"
