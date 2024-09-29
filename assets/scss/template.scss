@@ -97,6 +97,11 @@ ul.network-icon .big-icon {
   height: auto;
   max-width: 225px;
   max-height: 225px;
+  transition: filter 0.3s ease; /* 호버 시 부드럽게 흐려지는 효과 */
+}
+
+.avatar:hover {
+  filter: blur(5px); /* 마우스 호버 시 5px 흐림 효과 */
 }
 
 // Prevent stretching on About page with narrow container
