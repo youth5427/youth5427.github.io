@@ -1,5 +1,5 @@
 ---
-widget: experience
+# widget: experience
 title: Adoxx Project
 summary: Adoxx를 활용한 교육용 프로그램 제작
 tags:
