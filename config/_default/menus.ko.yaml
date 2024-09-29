@@ -17,8 +17,8 @@ main:
   - parent: 기타 프로젝트
     name: 첫 번째
     url: /
-    weight: 30
+    weight: 40
   - parent: 기타 프로젝트
     name: 두 번째
     url: /
-    weight: 40
+    weight: 30
