@@ -3,6 +3,8 @@
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
 
+# weight은 10 단위로 크기가 작을수록 아래, 왼쪽에 정렬된다.
+# 최신 프로젝트가 위로 올라가게 설정하자.
 main:
   - name: 홈
     url: /
@@ -17,32 +19,32 @@ main:
   - parent: 모바일 개발
     name: MOIRAI
     url: /project/moirai
-    weight: 35
+    weight: 40
   - parent: 모바일 개발
     name: Example
     url: /project/example
-    weight: 31
-  
+    weight: 39
+    
   - name: 웹 개발
     url: /
     weight: 40
   - parent: 웹 개발
     name: 밥한끼
     url: /project/meal
-    weight: 45
+    weight: 49
   - parent: 웹 개발
-    name: 두 번째
-    url: /
-    weight: 45
+    name: Example
+    url: /project/example
+    weight: 50
 
   - name: 기타 프로젝트
     url: /
     weight: 50
   - parent: 기타 프로젝트
-    name: Adoxx Project
-    url: /project/adoxx
-    weight: 50
-  - parent: 기타 프로젝트
     name: 어현
     url: /project/wise_words
-    weight: 51
+    weight: 60
+  - parent: 기타 프로젝트
+    name: Adoxx Project
+    url: /project/adoxx
+    weight: 59
