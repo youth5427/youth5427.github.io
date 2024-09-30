@@ -40,7 +40,7 @@ main:
     weight: 50
   - parent: 기타 프로젝트
     name: 첫 번째
-    url: /
+    url: /project/adoxx
     weight: 50
   - parent: 기타 프로젝트
     name: 두 번째
