@@ -45,4 +45,4 @@ main:
   - parent: 기타 프로젝트
     name: 두 번째
     url: /
-    weight: 50
+    weight: 60
