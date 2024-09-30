@@ -21,7 +21,7 @@ main:
   - parent: 모바일 개발
     name: Example
     url: /project/example
-    weight: 35
+    weight: 31
   
   - name: 웹 개발
     url: /
@@ -43,6 +43,6 @@ main:
     url: /project/adoxx
     weight: 50
   - parent: 기타 프로젝트
-    name: 두 번째
-    url: /
-    weight: 60
+    name: 어현
+    url: /project/wise_words
+    weight: 51
