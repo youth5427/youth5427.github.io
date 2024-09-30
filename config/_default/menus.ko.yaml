@@ -19,11 +19,11 @@ main:
   - parent: 모바일 개발
     name: MOIRAI
     url: /project/moirai
-    weight: 40
+    weight: 39
   - parent: 모바일 개발
     name: Example
     url: /project/example
-    weight: 39
+    weight: 40
     
   - name: 웹 개발
     url: /
@@ -43,8 +43,9 @@ main:
   - parent: 기타 프로젝트
     name: 어현
     url: /project/wise_words
-    weight: 60
+    weight: 59
   - parent: 기타 프로젝트
     name: Adoxx Project
     url: /project/adoxx
-    weight: 59
+    weight: 60
+
