@@ -15,7 +15,7 @@ main:
     url: /
     weight: 30
   - parent: 모바일 개발
-    name: 첫 번째
+    name: MOIRAI
     url: /project/moirai
     weight: 35
   - parent: 모바일 개발
