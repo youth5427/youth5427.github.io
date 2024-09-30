@@ -17,11 +17,11 @@ main:
   - parent: 모바일 개발
     name: 첫 번째
     url: /project/moirai
-    weight: 30
+    weight: 35
   - parent: 모바일 개발
     name: 두 번째
     url: /
-    weight: 30
+    weight: 35
   
   - name: 웹 개발
     url: /
@@ -29,11 +29,11 @@ main:
   - parent: 웹 개발
     name: 첫 번째
     url: /
-    weight: 40
+    weight: 45
   - parent: 웹 개발
     name: 두 번째
     url: /
-    weight: 40
+    weight: 45
 
   - name: 기타 프로젝트
     url: /
