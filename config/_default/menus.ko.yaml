@@ -27,8 +27,8 @@ main:
     url: /
     weight: 40
   - parent: 웹 개발
-    name: 첫 번째
-    url: /
+    name: 밥한끼
+    url: /project/meal
     weight: 45
   - parent: 웹 개발
     name: 두 번째
