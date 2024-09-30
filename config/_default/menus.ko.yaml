@@ -3,7 +3,7 @@
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
 
-# weight은 10 단위로 크기가 작을수록 아래, 왼쪽에 정렬된다.
+# weight은 10 단위로 크기가 작을수록 위, 왼쪽에 정렬된다.
 # 최신 프로젝트가 위로 올라가게 설정하자.
 main:
   - name: 홈
