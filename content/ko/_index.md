@@ -4,6 +4,17 @@ title: 메인페이지
 date: 2024-03-25
 type: landing
 
+# Use the Intro widget of the Blog template
+widget: about.avatar
+
+# This file represents a page section.
+headless: true
+
+# Order that this section will appear in.
+weight: 10
+
+author: admin
+
 sections:
   - block: about.biography
     id: about
