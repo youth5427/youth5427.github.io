@@ -10,10 +10,6 @@ sections:
     content:
       title: ""
       username: admin
-  - block: widget
-    # Use the Intro widget of the Blog template
-    content: about.avatar
-    author: admin
 
   - block: features
     content:
