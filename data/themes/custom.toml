@@ -2,6 +2,9 @@
 name = "Starter Blog"
 
 # 여기를 수정하면 색을 바꿀 수 있음.
+
+[params]
+  backgroundColor = "rgb(21, 145, 228)"
 [light]
   # Primary
   primary = "#2962ff" # 밝은 파랑
