@@ -22,9 +22,7 @@ sections:
       order: desc
       filters:
         folders:
-          - project/moirai
-          - project/meal
-          - project/wise_words
+          - moirai
     # design:
     #   view: community/custom_card
     #   columns: '2'
