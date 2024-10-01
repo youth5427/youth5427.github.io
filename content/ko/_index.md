@@ -64,8 +64,8 @@ sections:
       order: desc
       filters:
         folders:
-          - project/moirai
-          - project/example
+          - moirai
+          - example
     design:
       view: compact
       columns: "2"
