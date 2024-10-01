@@ -64,7 +64,7 @@ sections:
       order: desc
       filters:
         folders:
-          - MobileDev
+          - mobiledev
     design:
       view: compact
       columns: "2"
