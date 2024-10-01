@@ -64,7 +64,7 @@ sections:
       order: desc
       filters:
         folders:
-          - moirai
+          - MobileDev
     design:
       view: compact
       columns: "2"
