@@ -18,7 +18,7 @@ sections:
           content: '<span style="font-size:70%">슬라이드1</span>'
           align: center
           background:
-            image:
+            image: ocean.jpg
               filename:
               filters:
                 brightness: 0.4
@@ -27,7 +27,7 @@ sections:
           link:
             icon: external-link-alt
             icon_pack: fas
-            text: ""
+            text: "test"
             text-color: "#fff"
             url:
 
