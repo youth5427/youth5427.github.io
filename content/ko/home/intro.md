@@ -3,7 +3,7 @@ title:
 date: 2024-10-01
 type: landing
 # Use the Intro widget of the Blog template
-widget: about.avatar
+# widget: about.avatar
 
 # This file represents a page section.
 headless: true
