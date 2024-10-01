@@ -3,7 +3,7 @@ title:
 date: 2024-10-01
 type: landing
 # Use the Intro widget of the Blog template
-# widget: about.avatar
+widget: about.avatar
 
 # This file represents a page section.
 headless: true
@@ -19,13 +19,6 @@ author: admin
 #    video:
 #      path:  # enter filename of a video in /assets/media
 #  css_class: fullscreen
-
-sections:
-  - block: features
-    content:
-      title: <span style="font-size:70%">안녕하세요! 저는 전북대학교 컴퓨터공학부에 재학중인 유수현입니다. </span>
-      text: <br><br>
-        {{% cta cta_link="./about/" cta_text="포트폴리오 보기 →" %}}
 ---
 
 <!--
