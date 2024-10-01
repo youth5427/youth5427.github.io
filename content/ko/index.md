@@ -11,17 +11,23 @@ sections:
       text:
         <br><span style="font-size:125%">전북대학교 의료 AI 및 계산 과학 연구실 홈페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="./about/" cta_text="See Research Field →" %}}
-- block: project
-    filter_default: 0
-    filter_button:
-      - name: 전체
-          tag: '*'
-      - name: 모바일 개발
-          tag: MD
-      - name: 웹 개발
-          tag: WD
-      - name: 기타
-          tag: etc
+  - block: collection
+    content:
+      id: section-1
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - project/moirai
+          - project/meal
+          - project/wise_words
+    # design:
+    #   view: community/custom_card
+    #   columns: '2'
   # - block: slider
   #   content:
   #     slides:
