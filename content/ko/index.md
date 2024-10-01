@@ -1,10 +1,13 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: 메인페이지
 date: 2024-03-25
 type: landing
 
 sections:
+  - block: about.avatar
+    author: admin
+
   - block: features
     content:
       title: <span style="font-size:70%">Medical AI & Computational Science (Macs) Lab </span>
