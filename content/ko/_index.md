@@ -5,8 +5,11 @@ date: 2024-03-25
 type: landing
 
 sections:
-  - block: about.avatar
-    author: admin
+  - block: about.biography
+    id: about
+    content:
+      title: ""
+      username: admin
 
   - block: features
     content:
@@ -14,21 +17,21 @@ sections:
       text:
         <br><span style="font-size:125%">전북대학교 의료 AI 및 계산 과학 연구실 홈페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="./about/" cta_text="See Research Field →" %}}
-  - block: collection
-    content:
-      id: section-1
-      title: Notifications & News
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - moirai
-    # design:
-    #   view: community/custom_card
-    #   columns: '2'
+  # - block: collection
+  #   content:
+  #     id: section-1
+  #     title: Notifications & News
+  #     subtitle:
+  #     text:
+  #     count: 3
+  #     offset: 0
+  #     order: desc
+  #     filters:
+  #       folders:
+  #         - moirai
+  # design:
+  #   view: community/custom_card
+  #   columns: '2'
   # - block: slider
   #   content:
   #     slides:
