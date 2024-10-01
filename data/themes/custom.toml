@@ -4,23 +4,23 @@ name = "Starter Blog"
 # 여기를 수정하면 색을 바꿀 수 있음.
 [light]
   # Primary
-  primary = "#2962ff"
+  primary = "#2962ff" # 밝은 파랑
 
   # Menu
-  menu_primary = "rgb(247, 250, 252)"
-  menu_text = "#34495e"
-  menu_text_active = "#2962ff"
-  menu_title = "#2b2b2b"
+  menu_primary = "rgb(247, 250, 252)" # 흰색
+  menu_text = "#34495e" # 진한 파랑
+  menu_text_active = "#2962ff" # 밝은 파랑
+  menu_title = "#2b2b2b"  # 검정
 
   # Home sections
-  home_section_odd = "rgb(247, 250, 252)"
+  home_section_odd = "rgb(247, 250, 252)" # 흰색
   home_section_even = "rgb(247, 250, 252)"
 
 [dark]
-  primary = "#bbdefb"
+  primary = "#bbdefb" # 연한 파랑
   link = "#bbdefb"
   link_hover = "#bbdefb"
-  background = "rgb(26, 32, 44)"
+  background = "rgb(26, 32, 44)"  # 파검색
   home_section_odd = "rgb(26, 32, 44)"
   home_section_even = "rgb(26, 32, 44)"
   menu_primary = "rgb(26, 32, 44)"
