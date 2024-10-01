@@ -65,7 +65,6 @@ sections:
       filters:
         folders:
           - moirai
-          - example
     design:
       view: compact
       columns: "2"
