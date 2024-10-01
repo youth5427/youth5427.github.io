@@ -11,25 +11,17 @@ sections:
       title: ""
       username: admin
 
-  - block: slider
+  - block: slider.quotes
+    id: testimonials-slider
     content:
-      slides:
-        - title: '<span style="font-size:70%">슬라이드</span>'
-          content: '<span style="font-size:70%">슬라이드1</span>'
-          align: center
-          background:
-            image: ocean.jpg
-              filename:
-              filters:
-                brightness: 0.4
-            position: center
-            color: "#000"
-          link:
-            icon: external-link-alt
-            icon_pack: fas
-            text: "test"
-            text-color: "#fff"
-            url: "https://www.naver.com"
+      title: "What Our Clients Say"
+      quotes:
+        - text: "This is the best service I've ever used!"
+          author: "John Doe"
+        - text: "Highly recommended for anyone needing quality work."
+          author: "Jane Smith"
+        - text: "Amazing experience, will definitely come back!"
+          author: "Michael Johnson"
 
   # - block: collection
   #   content:
