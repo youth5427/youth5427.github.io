@@ -1,7 +1,7 @@
 ---
 title:
 date: 2024-03-25
-# type: landing
+type: landing
 headless: true
 weight: 15
 
