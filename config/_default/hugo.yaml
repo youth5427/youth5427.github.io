@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: 유수현의 포트폴리오 # Website name
-baseURL: 'https://portfolio.youth.com/' # Website URL
+baseURL: "https://youth5427.github.io/" # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -41,9 +41,9 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
+  authors: "/author/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]

@@ -9,7 +9,7 @@ superuser: true
 role: 컴퓨터공학부 학생
 
 # Status emoji
-status: 
+status:
   icon: 💻
 
 # Organizations/Affiliations
@@ -17,9 +17,8 @@ organizations:
   - name: 전북대학교
     url: "http://www.jbnu.ac.kr"
 
-
 # Short bio (displayed in user profile at end of posts)
-# bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 유수현은 전북대학교 컴퓨터공학과 학생입니다. 그는 모바일과 웹 서비스에 관심이 있습니다.
 
 #interests:
 #- Artificial Intelligence
@@ -45,18 +44,17 @@ organizations:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:youth5427@jbnu.ac.kr' # For a direct email link, use "mailto:test@example.org".
+    link: "mailto:youth5427@jbnu.ac.kr" # For a direct email link, use "mailto:test@example.org".
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/wowchemy
   - icon: instagram
     icon_pack: fab
     link: https://instagram.com/youth_0831
-# Uncomment below for Github link
+  # Uncomment below for Github link
   - icon: github
     icon_pack: fab
     link: https://github.com/youth5427
-
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
