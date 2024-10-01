@@ -29,7 +29,7 @@ sections:
             icon_pack: fas
             text: "test"
             text-color: "#fff"
-            url:
+            url: "https://www.naver.com"
 
   # - block: collection
   #   content:
