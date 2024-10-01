@@ -11,11 +11,11 @@ sections:
       title: ""
       username: admin
 
-   - block: slider
+  - block: slider
     content:
       slides:
-        - title: "<span style=\"font-size:70%\">네이버</span>"
-          content: "<span style=\"font-size:70%\">네이버테스트</span>"
+        - title: '<span style="font-size:70%">네이버</span>'
+          content: '<span style="font-size:70%">네이버테스트</span>'
           align: center
           background:
             image:
@@ -23,16 +23,16 @@ sections:
               filters:
                 brightness: 0.4
             position: center
-            color: '#000'
+            color: "#000"
           link:
             icon: external-link-alt
             icon_pack: fas
             text: "출처"
-            text-color: '#fff'
+            text-color: "#fff"
             url: "https://naver.com"
 
-        - title: "<span style=\"font-size:70%\">다음</span>"
-          content: "<span style=\"font-size:70%\">다음테스트</span>"
+        - title: '<span style="font-size:70%">다음</span>'
+          content: '<span style="font-size:70%">다음테스트</span>'
           align: center
           background:
             image:
@@ -40,21 +40,20 @@ sections:
               filters:
                 brightness: 0.4
             position: center
-            color: '#000'
+            color: "#000"
           link:
             icon: external-link-alt
             icon_pack: fas
             text: "출처"
-            text-color: '#fff'
+            text-color: "#fff"
             url: "https://daum.netA"
 
     design:
-      slide_height: '350px'
-      slide_width: '100%'
+      slide_height: "350px"
+      slide_width: "100%"
       is_fullscreen: false
       loop: true
       interval: 3000
-
 
   # - block: collection
   #   content:
