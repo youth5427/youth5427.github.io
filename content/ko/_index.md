@@ -55,24 +55,20 @@ sections:
       loop: true
       interval: 3000
 
-  - block: project
+  - block: collection
     content:
-      filter_button:
-        - name: 전체
-          tag: "*"
-        - name: 모바일 개발
-          tag: MD
-        - name: 웹 개발
-          tag: WD
-        - name: 기타
-          tag: etc
-
+      id: section-1
+      title: 모바일 개발
+      count: 2
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - moirai
+          - example
     design:
-    columns: "1"
-    view: masonry
-    flip_alt_rows: true
-    background: {}
-    spacing: { padding: [0, 0, 0, 0] }
+      view: compact
+      columns: "2"
 
   # - block: collection
   #   content:
