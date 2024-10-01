@@ -6,7 +6,7 @@
 # Appearance
 
 appearance:
-  theme_day: custom
+  theme_day: minimal
   theme_night: minimal
   font: native
   font_size: L
@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Person
+    site_type: Organization
     local_business_type: ""
     org_name: "전북대 유수현"
-    description: "A highly-customizable Hugo blog theme powered by Wowchemy website builder."
+    description: "전북대학교 컴퓨터공학부 유수현 자기소개 사이트입니다."
     twitter: "GetResearchDev"
   analytics:
     google_analytics: ""
