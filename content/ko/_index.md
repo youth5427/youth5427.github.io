@@ -66,7 +66,7 @@ sections:
         folders:
           - mobiledev
     design:
-      view: custom-slider
+      view: partials/custom-slider
       columns: "2"
 
   - block: collection
