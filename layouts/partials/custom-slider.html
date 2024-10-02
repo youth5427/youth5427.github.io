@@ -1,0 +1,22 @@
+<div class="custom-slider">
+  {{ range .Params.projects }}
+  <div class="slide">
+    <a href="{{ .url }}">
+      <img src="{{ .image }}" alt="{{ .title }}" />
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+    </a>
+  </div>
+  {{ end }}
+</div>
+
+<style>
+  .custom-slider {
+    display: flex;
+    overflow-x: scroll;
+  }
+  .slide {
+    min-width: 300px;
+    margin-right: 10px;
+  }
+</style>
