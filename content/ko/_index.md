@@ -28,6 +28,7 @@ sections:
             icon: mobile-alt
             icon_pack: fas
             url: /mobiledev
+          # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/space-gray-iphone-x-9e9PD9blAto
 
         - title: '<span style="font-size:70%">웹 개발</span>'
           content: '<span style="font-size:70%">웹 프로젝트를 만나보세요!</span>'
@@ -43,6 +44,7 @@ sections:
             icon: external-link-alt
             icon_pack: fas
             url: /webdev
+          # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%A1%9C%EA%B3%A0-JySoEnr-eOg
 
         - title: '<span style="font-size:70%">기타</span>'
           content: '<span style="font-size:70%">기타 프로젝트를 만나보세요!</span>'
@@ -58,7 +60,7 @@ sections:
             icon: external-link-alt
             icon_pack: fas
             url: /etc
-
+          # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/macbook-pro-showing-programming-language-xrVDYZRGdw4
     design:
       slide_height: "350px"
       slide_width: "100%"
