@@ -1,7 +1,7 @@
 ---
 title: test page
 summary: test page 입니다
-date: 2024-06-31
+date: 2024-01-01
 # link: https://github.com/youth5427/GPT_test
 ---
 
