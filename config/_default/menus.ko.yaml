@@ -1,7 +1,7 @@
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
 
 # weight은 10 단위로 크기가 작을수록 위, 왼쪽에 정렬된다.
 # 최신 프로젝트가 위로 올라가게 설정하자.
@@ -18,23 +18,23 @@ main:
     weight: 30
   - parent: 모바일 개발
     name: MOIRAI
-    url: /project/moirai
+    url: /moirai
     weight: 39
   - parent: 모바일 개발
     name: Example
-    url: /project/example
+    url: /example
     weight: 40
-    
+
   - name: 웹 개발
     url: /
     weight: 40
   - parent: 웹 개발
     name: 밥한끼
-    url: /project/meal
+    url: /meal
     weight: 49
   - parent: 웹 개발
     name: Example
-    url: /project/example
+    url: /example
     weight: 50
 
   - name: 기타 프로젝트
@@ -42,10 +42,9 @@ main:
     weight: 50
   - parent: 기타 프로젝트
     name: 어현
-    url: /project/wise_words
+    url: /wise_words
     weight: 59
   - parent: 기타 프로젝트
     name: Adoxx Project
-    url: /project/adoxx
+    url: /adoxx
     weight: 60
-
