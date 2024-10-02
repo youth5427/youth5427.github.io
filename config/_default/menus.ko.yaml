@@ -21,8 +21,8 @@ main:
     url: /mobiledev/moirai
     weight: 39
   - parent: 모바일 개발
-    name: Example
-    url: /mobiledev/example
+    name: 모바일프로그래밍 수강
+    url: /mobiledev/androidclass
     weight: 40
 
   - name: 웹 개발
