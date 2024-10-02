@@ -57,7 +57,7 @@ sections:
             position: center
             color: "#000"
           link:
-            icon: external-link-alt
+            icon: laptop-code
             icon_pack: fas
             url: /etc
           # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/macbook-pro-showing-programming-language-xrVDYZRGdw4
