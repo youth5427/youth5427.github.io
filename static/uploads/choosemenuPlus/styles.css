@@ -14,7 +14,7 @@
 }
 .e81_288 {
   color: red; /* 글씨 색을 빨간색으로 변경 */
-  width: 250px;
+  width: 600px;
   height: 60px;
   position: absolute;
   left: 50%;
@@ -22,7 +22,7 @@
   transform: translate(-50%, -50%); /* 정중앙 배치 */
   font-family: SeoulHangang CEB;
   text-align: center;
-  font-size: 60px;
+  font-size: 30px;
   letter-spacing: 4px;
 }
 
