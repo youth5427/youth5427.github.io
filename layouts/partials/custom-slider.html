@@ -3,8 +3,8 @@
   <div class="slide">
     <a href="{{ .url }}">
       <img src="{{ .image }}" alt="{{ .title }}" />
-      <h3>{{ .title }}</h3>
-      <p>{{ .description }}</p>
+      <h3 class="project-title">{{ .title }}</h3>
+      <p class="project-description">{{ .description }}</p>
     </a>
   </div>
   {{ end }}
@@ -18,5 +18,13 @@
   .slide {
     min-width: 300px;
     margin-right: 10px;
+  }
+  .project-title {
+    font-size: 10px; /* 제목 글씨 크기 조절 */
+    font-weight: bold; /* 제목을 굵게 표시 (선택 사항) */
+    margin-top: 10px;
+  }
+  .project-description {
+    font-size: 16px;
   }
 </style>
