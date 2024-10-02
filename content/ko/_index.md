@@ -76,7 +76,7 @@ sections:
       filters:
         folders:
           - mobiledev
-      sort_by: "date"
+      sort_by: date
       sort_ascending: false
     design:
       view: compact
@@ -92,7 +92,7 @@ sections:
       filters:
         folders:
           - webdev
-      sort_by: "date"
+      sort_by: date
       sort_ascending: false
     design:
       view: compact
@@ -108,7 +108,7 @@ sections:
       filters:
         folders:
           - etc
-      sort_by: "date"
+      sort_by: date
       sort_ascending: false
     design:
       view: compact
