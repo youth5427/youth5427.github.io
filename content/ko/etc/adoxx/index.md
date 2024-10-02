@@ -3,7 +3,7 @@ title: Adoxx Project
 summary: Adoxx를 활용한 교육용 프로그램 제작
 tags:
   - etc
-date: 2024-12-27
+date: 2023-12-27
 # external_link: http://github.com
 ---
 
