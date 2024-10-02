@@ -19,7 +19,7 @@ sections:
           align: center
           background:
             image:
-              filename: ocean.jpg
+              filename: mobileslide.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -27,8 +27,6 @@ sections:
           link:
             icon: mobile-alt
             icon_pack: fas
-            text: ""
-            text-color: "#fff"
             url: /mobiledev
 
         - title: '<span style="font-size:70%">웹 개발</span>'
@@ -36,7 +34,7 @@ sections:
           align: center
           background:
             image:
-              filename: ocean.jpg
+              filename: webslide.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -44,16 +42,14 @@ sections:
           link:
             icon: external-link-alt
             icon_pack: fas
-            text: "출처"
-            text-color: "#fff"
-            url: "https://daum.net"
+            url: /webdev
 
         - title: '<span style="font-size:70%">기타</span>'
           content: '<span style="font-size:70%">기타 프로젝트를 만나보세요!</span>'
           align: center
           background:
             image:
-              filename: ocean.jpg
+              filename: etcslide.jpg
               filters:
                 brightness: 0.4
             position: center
@@ -61,9 +57,7 @@ sections:
           link:
             icon: external-link-alt
             icon_pack: fas
-            text: "출처"
-            text-color: "#fff"
-            url: "https://daum.netA"
+            url: /etc
 
     design:
       slide_height: "350px"
