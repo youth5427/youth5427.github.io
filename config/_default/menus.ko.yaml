@@ -14,7 +14,7 @@ main:
     weight: 20
 
   - name: 모바일 개발
-    url: /
+    url: /mobiledev
     weight: 30
   - parent: 모바일 개발
     name: MOIRAI
@@ -26,7 +26,7 @@ main:
     weight: 40
 
   - name: 웹 개발
-    url: /
+    url: /webdev
     weight: 40
   - parent: 웹 개발
     name: 밥한끼
@@ -38,7 +38,7 @@ main:
     weight: 50
 
   - name: 기타 프로젝트
-    url: /
+    url: /etc
     weight: 50
   - parent: 기타 프로젝트
     name: 어현
