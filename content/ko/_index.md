@@ -71,7 +71,21 @@ sections:
 
   - block: collection
     content:
-      id: section-1
+      id: section-2
+      title: 웹 개발
+      count: 2
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - webdev
+    design:
+      view: compact
+      columns: "2"
+
+  - block: collection
+    content:
+      id: section-3
       title: 기타 프로젝트
       count: 2
       offset: 0
@@ -82,10 +96,4 @@ sections:
     design:
       view: compact
       columns: "2"
-
-  - block: portfolio.grid
-    id: portfolio
-    content:
-      title: 웹 프로젝트
-      image: featured.png
 ---
