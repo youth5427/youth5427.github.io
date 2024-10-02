@@ -10,3 +10,4 @@ date: 2024-01-26
 2024 빅데이터사업단에서 주최한 '2024년 겨울 한동대학교 빅데이터 캠프'에서 진행한 프로젝트입니다.
 
 GPT-3-turbo모델에 간단한 프롬프트 학습을 적용하여 개발했습니다.
+{{< staticref "uploads/choosemenuPlus/index.html" "newtab" >}}결과물 확인하기{{< /staticref >}}

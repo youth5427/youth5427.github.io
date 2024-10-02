@@ -1,0 +1,213 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>밥 한 끼</title>
+    <meta name="description" content="Figma htmlGenerator" />
+    <meta name="author" content="htmlGenerator" />
+    <link
+      href="https://fonts.googleapis.com/css?family=SeoulHangang+CEB&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      /*
+                Figma Background for illustrative/preview purposes only.
+                You can remove this style tag with no consequence
+              */
+      body {
+        background: #e5e5e5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="webcam-container" left:500px; top:534px;></div>
+    <div class="e81_269">
+      <span class="e81_289">밥 한 끼</span>
+      <div class="e81_296">
+        <div class="e81_306"></div>
+        <div class="e81_292">
+          <div class="e81_293"></div>
+          <span class="e81_294">요리 & 재료 입력</span>
+          <div class="e81_295"></div>
+        </div>
+        <div class="e81_305"></div>
+        <div class="e81_318"></div>
+        <span class="e81_307">계란, 김치, 치즈, 파슬리, 토마토...</span
+        ><span class="e81_319">감자로 할 수 있는 요리</span
+        ><span class="e81_313">카메라</span>
+        <div class="e81_314">
+          <img
+            src="images/upload.png"
+            width="46px"
+            height="38px"
+            for="image-upload"
+          />
+          <div class="container">
+            <div class="form-group">
+              <label for="image-upload"></label>
+              <input
+                type="file"
+                id="img-file"
+                name="img-file"
+                accept="image/*"
+                onchange="imageToBase64(this)"
+              />
+            </div>
+          </div>
+          <button
+            id="submit-button"
+            class="neon-button"
+            onclick="file_submit()"
+          >
+            제출
+          </button>
+        </div>
+        <div class="e81_315">
+          <img
+            src="images/camera.png"
+            width="61px"
+            height="36px"
+            onclick="camera_init()"
+          />
+        </div>
+        <div class="e81_320"></div>
+      </div>
+      <div class="e81_321">
+        <div class="e81_337"></div>
+        <div class="e81_322"></div>
+        <span class="e81_329">
+          <textarea rows="26" cols="60" id="result">재료목록</textarea>
+        </span>
+        <div class="e81_336"></div>
+        <div class="e81_338">
+          <div class="e81_339"></div>
+        </div>
+        <span class="e81_341">내 냉장고 목록</span>
+      </div>
+      <div class="e81_301">
+        <div class="e81_302"></div>
+      </div>
+      <div class="e81_343"></div>
+      <div class="e81_344">
+        <div class="e81_345"></div>
+        <span class="e81_346">저장</span>
+      </div>
+      <div class="e81_347">
+        <div class="e81_348"></div>
+        <span class="e81_349">불러오기</span>
+      </div>
+      <div class="e81_350">
+        <div class="e81_351"></div>
+        <span class="e81_352">로그인</span>
+      </div>
+      <div class="e81_353">
+        <div class="e81_357">
+          <input class="e81_354" /><input id="text" class="e81_355" />
+        </div>
+      </div>
+      <div class="e81_340">
+        <button type="button">
+          <img src="images/search.png" width="26" onclick="predict()" />
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script type="text/javascript">
+      var temp_img_url = "";
+      function imageToBase64(t) {
+        var reader = new FileReader();
+        reader.readAsDataURL(t.files[0]);
+        reader.onload = function (e) {
+          //document.getElementById('image').src = e.target.result;
+          temp_img_url = e.target.result;
+        };
+      }
+
+      async function file_submit() {
+        // const img = document.getElementById('img-file');
+        //  const base64_image = temp_img_url;//img.src;
+
+        const send_data =
+          '{"model": "gpt-4-vision-preview","messages": [{"role": "user","content": [{"type": "text","text": "주어진 사진 속 텍스트 중 상품명만 읽어줘"},{"type": "image_url","image_url": {"url": "' +
+          temp_img_url +
+          '"}}]}],"max_tokens": 300}';
+
+        $.ajax({
+          type: "post",
+          url: "https://api.openai.com/v1/chat/completions",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: "Bearer sk-your api key",
+          },
+          data: send_data,
+          error: function () {
+            alert("실패");
+          },
+          success: function (data) {
+            var temp_result = data.choices[0].message.content;
+
+            document.getElementById("result").value = temp_result;
+          },
+        });
+      }
+
+      async function predict() {
+        var temp_role =
+          "당신은 주어진 쟤료를 활용한 음식을 추천해 주는 도우미 입니다.";
+        var qu = document.getElementById("result").value;
+        const send_data =
+          '{"model": "ft:gpt-3.5-turbo-0613:personal::8kurUpTE","messages": [{"role": "system", "content": "' +
+          temp_role +
+          '"},{"role": "assistant", "content": "' +
+          qu +
+          '"}]}';
+
+        $.ajax({
+          type: "post",
+          url: "https://api.openai.com/v1/chat/completions",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: "Bearer sk-your api key",
+          },
+          data: send_data,
+          error: function () {
+            alert("실패");
+          },
+          success: function (data) {
+            var temp_result = data.choices[0].message.content;
+
+            document.getElementById("text").value = temp_result;
+          },
+        });
+      }
+      let webcam;
+      async function camera_init() {
+        // Convenience function to setup a webcam
+        const flip = true; // whether to flip the webcam
+        webcam = new tmImage.Webcam(200, 200, flip); // width, height, flip
+        await webcam.setup(); // request access to the webcam
+        await webcam.play();
+        window.requestAnimationFrame(loop);
+
+        // append elements to the DOM
+        document.getElementById("webcam-container").appendChild(webcam.canvas);
+      }
+    </script>
+  </body>
+</html>
