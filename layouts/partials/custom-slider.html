@@ -1,11 +1,8 @@
 <div class="compact-view">
   {{ range .Params.projects }}
   <div class="compact-item">
-    <a href="{{ .url }}">
-      <img src="{{ .image }}" alt="{{ .title }}" />
-      <h3>{{ .title }}</h3>
-      <!-- <p>{{ .description }}</p> -->
-    </a>
+    <h3>{{ .title }}</h3>
+    <!-- <p>{{ .description }}</p> -->
   </div>
   {{ end }}
 </div>
@@ -30,18 +27,8 @@
     transform: scale(1.05); /* 호버 시 크기 확대 */
   }
 
-  .compact-item img {
-    width: 100%; /* 이미지가 카드의 너비를 채우도록 설정 */
-    height: auto;
-  }
-
   .compact-item h3 {
     font-size: 10px; /* 제목 크기 조절 */
     margin: 8px; /* 여백 */
-  }
-
-  .compact-item p {
-    font-size: 14px; /* 설명 텍스트 크기 조절 */
-    margin: 0 8px 8px; /* 여백 */
   }
 </style>
