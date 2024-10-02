@@ -29,7 +29,7 @@ sections:
             icon_pack: fas
             text: ""
             text-color: "#fff"
-            url: "mobiledev/moirai"
+            url: /mobiledev/moirai
 
         - title: '<span style="font-size:70%">웹 개발</span>'
           content: '<span style="font-size:70%">웹 프로젝트를 만나보세요!</span>'
