@@ -82,6 +82,8 @@ sections:
       filters:
         folders:
           - mobiledev
+      sort_by: "date"
+      sort_ascending: false
     design:
       view: compact
       columns: "2"
@@ -96,6 +98,8 @@ sections:
       filters:
         folders:
           - webdev
+      sort_by: "date"
+      sort_ascending: false
     design:
       view: compact
       columns: "2"
@@ -110,6 +114,8 @@ sections:
       filters:
         folders:
           - etc
+      sort_by: "date"
+      sort_ascending: false
     design:
       view: compact
       columns: "2"
