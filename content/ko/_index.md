@@ -41,7 +41,7 @@ sections:
             position: center
             color: "#000"
           link:
-            icon: external-link-alt
+            icon: globe
             icon_pack: fas
             url: /webdev
           # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%A1%9C%EA%B3%A0-JySoEnr-eOg
