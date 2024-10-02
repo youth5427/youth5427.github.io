@@ -68,4 +68,18 @@ sections:
     design:
       view: compact
       columns: "2"
+
+  - block: collection
+    content:
+      id: section-1
+      title: 기타 프로젝트
+      count: 2
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - etc
+    design:
+      view: compact
+      columns: "2"
 ---
