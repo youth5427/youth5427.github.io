@@ -14,4 +14,5 @@ date: 2024-09-30
 <br><br>
 아래는 관련 Activity diagram입니다.
 </p>
+
 ![Activity diagram](/images/wise_words1.png)
