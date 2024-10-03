@@ -1,7 +1,7 @@
 ---
 # An instance of the Experience widget.
 # Documentation: https://docs.hugoblox.com/page-builder/
-widget: customview/customexperience
+widget: customexperience
 
 # This file represents a page section.
 headless: true
