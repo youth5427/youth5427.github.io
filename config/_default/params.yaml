@@ -44,6 +44,10 @@ header:
       text: ""
       # Logo filename in `assets/media/` folder
       filename: "icon.jpg"
+    button:
+      enable: true
+      text: ""
+      url: "https://youth5427.github.io/"
 
 footer:
   copyright:
