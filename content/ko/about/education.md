@@ -23,20 +23,28 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: 전북대학교
-    company_url: "https://jbnu.ac.kr"
-    company_logo: org-gc
+    company_url: "https://www.jbnu.ac.kr"
+    company_logo: org-jbnu
     location: 전북특별자치도 전주시
     date_start: "2020-03-02"
     date_end: ""
-    description:
+    description: 공과대학 컴퓨터공학부
+
+  - title: 대한민국 육군
+    company_url:
+    company_logo: org-A
+    location: 충청남도 계룡시
+    date_start: "2021-07-28"
+    date_end: "2023-01-27"
+    description: 공보상황병
 
   - title: 완산고등학교
     company_url: "https://school.jbedu.kr/wansango"
-    company_logo: org-x
+    company_logo: org-w
     location: 전라북도 전주시
     date_start: "2017-03-01"
     date_end: "2020-02-28"
-    description: 이과
+    description: 이공계열
 
 design:
   columns: "1"
