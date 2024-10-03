@@ -1,0 +1,56 @@
+{{ range .Params.experience }}
+<div
+  class="custom-experience-item"
+  style="
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  "
+>
+  <div class="header">
+    <!-- 로고가 있는 경우 표시 -->
+    {{ if .company_logo }}
+    <img
+      src="/images/{{ .company_logo }}.png"
+      alt="{{ .title }}"
+      style="width: 80px; height: 80px; object-fit: contain; border-radius: 50%"
+    />
+    {{ end }}
+
+    <!-- 제목 및 회사 URL -->
+    <h2 style="margin: 0">
+      <a href="{{ .company_url }}" target="_blank">{{ .title }}</a>
+    </h2>
+    <p style="color: #888">{{ .location }}</p>
+  </div>
+
+  <div class="content">
+    <p><strong>시작일:</strong> {{ .date_start }}</p>
+    {{ if .date_end }}
+    <p><strong>종료일:</strong> {{ .date_end }}</p>
+    {{ else }}
+    <p><strong>현재 진행 중</strong></p>
+    {{ end }}
+
+    <p>{{ .description }}</p>
+
+    <!-- 버튼 추가 -->
+    <a
+      href="{{ .company_url }}"
+      target="_blank"
+      class="btn btn-primary"
+      style="
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        text-decoration: none;
+      "
+    >
+      자세히 보기
+    </a>
+  </div>
+</div>
+{{ end }}
