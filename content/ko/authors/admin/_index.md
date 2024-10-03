@@ -67,5 +67,4 @@ social:
 
 유수현은 전북대학교 컴퓨터공학과 학생입니다. 그는 모바일과 웹 서비스에 관심이 있습니다.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}Download{{< /staticref >}} my Certificate_of_registration as a PDF.
-{{< navermap >}}
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}Download
