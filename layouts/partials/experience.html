@@ -1,0 +1,26 @@
+{{ range .Params.experience }}
+<a href="{{ .company_url }}" target="_blank" style="text-decoration: none">
+  <div
+    class="experience-item"
+    style="
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      cursor: pointer;
+    "
+  >
+    <img
+      src="/images/{{ .company_logo }}.png"
+      alt="{{ .title }}"
+      style="max-width: 100px"
+    />
+    <h2>{{ .title }}</h2>
+    <p>{{ .location }}</p>
+    <p>
+      {{ .date_start }} - {{ if .date_end }}{{ .date_end }}{{ else }}Present{{
+      end }}
+    </p>
+    <p>{{ .description }}</p>
+  </div>
+</a>
+{{ end }}
