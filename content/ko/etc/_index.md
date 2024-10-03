@@ -2,7 +2,7 @@
 title: 기타 프로젝트
 
 # Listing view
-view: posts/list
+view: customview/list
 banner:
   caption: ""
   image: ""

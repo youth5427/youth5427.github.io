@@ -2,7 +2,7 @@
 title: 모바일 개발
 
 # Listing view
-view: posts/list
+view: customview/list
 banner:
   caption: ""
   image: ""
