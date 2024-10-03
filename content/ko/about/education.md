@@ -26,7 +26,7 @@ experience:
     company_url: "https://jbnu.ac.kr"
     company_logo: "/static/images/jbnu.png"
     location: 전북특별자치도 전주시
-    date_start: "2021-01-01"
+    date_start: "2020-03-02"
     date_end: ""
     description: |2-
         * Dissertation on Y
