@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: 전북대학교
-    company_url: "https://www.jbnu.ac.kr"
+    url: "https://www.jbnu.ac.kr"
     company_logo: JBNU
     location: 전북특별자치도 전주시
     date_start: "2020-03-02"
