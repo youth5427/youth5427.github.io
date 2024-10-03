@@ -71,7 +71,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: '<span style="font-size:43px">모바일 개발</span>'
+      title: '<h1 style="font-size:70%">모바일 개발</h1>'
       count: 2
       offset: 0
       order: desc
@@ -103,7 +103,7 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: '<span style="font-size:43px">기타 프로젝트</span>'
+      title: '<h1 style="font-size:38px">기타 프로젝트</h1>'
       count: 2
       offset: 0
       order: desc
