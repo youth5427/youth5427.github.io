@@ -1,7 +1,7 @@
 ---
 # An instance of the Experience widget.
 # Documentation: https://docs.hugoblox.com/page-builder/
-widget: customexperience
+widget: experience
 
 # This file represents a page section.
 headless: true
@@ -21,7 +21,7 @@ date_format: Jan 2006
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-customexperience:
+experience:
   - title: 전북대학교
     company_url: "https://www.jbnu.ac.kr"
     company_logo: JBNU
