@@ -18,7 +18,7 @@ organizations:
     url: "http://www.jbnu.ac.kr"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 유수현은 전북대학교 컴퓨터공학과 학생입니다. 그는 모바일과 웹 서비스에 관심이 있습니다.
+bio: 유수현은 전북대학교 컴퓨터공학과 학생입니다. 모바일과 웹 서비스에 관심이 있습니다.
 
 #interests:
 #- Artificial Intelligence
@@ -67,4 +67,5 @@ social:
 
 유수현은 전북대학교 컴퓨터공학과 학생입니다. 그는 모바일과 웹 서비스에 관심이 있습니다.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}Download
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}Download{{< /staticref >}} my Certificate_of_registration as a PDF.
+{{< navermap >}}

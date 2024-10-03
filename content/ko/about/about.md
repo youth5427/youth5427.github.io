@@ -20,6 +20,5 @@ title: Hello
 author: admin
 ---
 
-연락처: 010-
 {{< /staticref >}} my Certificate_of_registration as a PDF.
 {{< navermap >}}
