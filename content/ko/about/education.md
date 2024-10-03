@@ -28,10 +28,7 @@ experience:
     location: 전북특별자치도 전주시
     date_start: "2020-03-02"
     date_end: ""
-    description: |2-
-        * Dissertation on Y
-        * Basketball team
-        * DJ club
+    description:
 
   - title: 완산고등학교
     company_url: "https://school.jbedu.kr/wansango"
