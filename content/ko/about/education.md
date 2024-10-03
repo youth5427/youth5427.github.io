@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: 전북대학교
     company_url: "https://jbnu.ac.kr"
-    company_logo: org-ㅈ
+    company_logo: org-J
     location: 전북특별자치도 전주시
     date_start: "2020-03-02"
     date_end: ""
