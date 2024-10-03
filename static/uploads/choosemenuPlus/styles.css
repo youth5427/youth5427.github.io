@@ -24,7 +24,6 @@
   text-align: center;
   font-size: 25px;
   letter-spacing: 4px;
-  z-index: 2; /* 쌓임 순서 조정 */
 }
 
 .e81_289 {
@@ -254,7 +253,6 @@
   border-top-right-radius: 15px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  z-index: 1;
 }
 .e81_329 {
   color: rgba(0, 0, 0, 0.5);
