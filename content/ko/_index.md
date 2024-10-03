@@ -71,7 +71,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: 모바일 개발
+      title: '<span style="font-size:50%">모바일 개발</span>'
       count: 2
       offset: 0
       order: desc
