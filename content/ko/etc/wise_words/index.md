@@ -12,4 +12,6 @@ date: 2024-09-30
 <br><br>
 성인들의 문해력과 어휘력을 향상하여 직무 능력과 소통 능력을 개선을 돕는 AI 기반 맞춤형 학습 플랫폼를 목표로 하였습니다.
 <br><br>
+아래는 관련 Activity diagram입니다.
 </p>
+![Activity diagram](/images/wise_words1.png)
