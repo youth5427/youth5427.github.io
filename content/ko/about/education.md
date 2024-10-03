@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Education
+title: 연혁
 subtitle:
 
 # Date format for experience
@@ -36,7 +36,7 @@ experience:
     location: 충청남도 계룡시
     date_start: "2021-07-28"
     date_end: "2023-01-27"
-    description: 공보상황병
+    description: 육군본부 공보과 공보상황병
 
   - title: 완산고등학교
     company_url: "https://school.jbedu.kr/wansango"
