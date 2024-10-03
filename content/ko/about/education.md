@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: 전북대학교
     company_url: "https://www.jbnu.ac.kr"
-    company_logo: org-jbnu
+    company_logo: org-j
     location: 전북특별자치도 전주시
     date_start: "2020-03-02"
     date_end: ""
@@ -32,7 +32,7 @@ experience:
 
   - title: 대한민국 육군
     company_url:
-    company_logo: org-A
+    company_logo: org-a
     location: 충청남도 계룡시
     date_start: "2021-07-28"
     date_end: "2023-01-27"
