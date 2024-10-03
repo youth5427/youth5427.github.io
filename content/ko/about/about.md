@@ -19,6 +19,3 @@ title: Hello
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
 ---
-
-{{< /staticref >}} my Certificate_of_registration as a PDF.
-{{< navermap >}}
