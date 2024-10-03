@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: 전북대학교
     company_url: "https://jbnu.ac.kr"
-    company_logo: org-J
+    company_logo: org-gc
     location: 전북특별자치도 전주시
     date_start: "2020-03-02"
     date_end: ""
@@ -32,7 +32,7 @@ experience:
 
   - title: 완산고등학교
     company_url: "https://school.jbedu.kr/wansango"
-    company_logo: org-W
+    company_logo: org-x
     location: 전라북도 전주시
     date_start: "2017-03-01"
     date_end: "2020-02-28"
