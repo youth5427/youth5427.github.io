@@ -18,4 +18,4 @@ Pigma를 통해 디자인하였고, GPT API를 통해 인공지능을 활용하�
 gpt-4-vision-preview모델을 이용하여 이미지에서 텍스트를 추출하고,
 gpt-3.5-turbo모델에 간단한 프롬프트 학습을 적용 레시피를 추천할 수 있게 개발했습니다.
 상황에 맞는 GPT모델을 활용함으로써 경제성을 더했습니다.</p>
-<a href="../../static/uploads/choosemenuPlus/index.html" target="_blank">결과물 확인하기</a>
+<a href="../static/uploads/choosemenuPlus/index.html" target="_blank">결과물 확인하기</a>
