@@ -1,23 +1,3 @@
-<!-- .md에서 [key, 위도, 경도]를 받는 경우 -->
-<!-- 
-<div id="map" style="width:100%;height:400px;"></div>
-
-<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=wj58af9275"></script>
-<script>
-    var mapOptions = {
-        center: new naver.maps.LatLng({{ .Get "latitude" }}, {{ .Get "longitude" }}),  // Shortcode 파라미터로 좌표값 받음
-        zoom: 15  // 줌 레벨
-    };
-
-    var map = new naver.maps.Map('map', mapOptions);
-
-    var marker = new naver.maps.Marker({
-        position: new naver.maps.LatLng({{ .Get "latitude" }}, {{ .Get "longitude" }}),
-        map: map
-    });
-</script> -->
-
-<!-- params.yaml에서 [key, 위도, 경도]를 받는 경우 -->
 <div id="map" style="width: 100%; height: 400px"></div>
 
 <script
@@ -42,11 +22,11 @@
   // 마커 생성
   var marker = new naver.maps.Marker(markerOptions);
 
-  // 인포윈도우 생성 및 마커에 텍스트 추가
+  // 인포윈도우 생성 및 마커에 텍스트와 하이퍼링크 추가
   var infoWindow = new naver.maps.InfoWindow({
-      content: '<div style="padding:5px;">JBNU</div>'  // 텍스트 설정
+      content: '<div style="padding:5px;">컴퓨터공학부<a href="https://www.csai.jbnu.ac.kr" target="_blank">Visit Website</a></div>'  // 하이퍼링크 추가
   });
 
-  // 인포윈도우를 바로 열어서 항상 텍스트 표시
+  // 인포윈도우를 바로 열어서 항상 텍스트와 하이퍼링크 표시
   infoWindow.open(map, marker);
 </script>
