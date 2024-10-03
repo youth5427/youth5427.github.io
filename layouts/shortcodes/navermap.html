@@ -36,10 +36,17 @@
   // 마커 옵션 설정
   var markerOptions = {
       position: new naver.maps.LatLng({{ .Site.Params.features.map.latitude }}, {{ .Site.Params.features.map.longitude }}),  // 마커 위치를 동일한 위도와 경도로 설정
-      map: map,
-      //title: "JBNU"  // 마커에 표시할 텍스트
+      map: map
   };
 
   // 마커 생성
   var marker = new naver.maps.Marker(markerOptions);
+
+  // 인포윈도우 생성 및 마커에 텍스트 추가
+  var infoWindow = new naver.maps.InfoWindow({
+      content: '<div style="padding:5px;">JBNU</div>'  // 텍스트 설정
+  });
+
+  // 인포윈도우를 바로 열어서 항상 텍스트 표시
+  infoWindow.open(map, marker);
 </script>
