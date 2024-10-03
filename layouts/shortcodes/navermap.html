@@ -22,24 +22,27 @@
 
 <script
   type="text/javascript"
-  src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId={{ .Site.Params.features.map.api_key }}"
+  src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=YOUR_API_KEY_HERE"
 ></script>
+
 <script>
   var mapOptions = {
-      center: new naver.maps.LatLng({{ .Site.Params.features.map.latitude }}, {{ .Site.Params.features.map.longitude }}),  // config.yaml에서 설정한 위도와 경도
-      zoom: {{ .Site.Params.features.map.zoom }}  // 줌 레벨 설정
+    center: new naver.maps.LatLng(37.5665, 126.978), // 위도와 경도 값 확인
+    zoom: 10, // 적절한 줌 레벨 설정
   };
 
   // 지도 생성
-  var map = new naver.maps.Map('map', mapOptions);
+  var map = new naver.maps.Map("map", mapOptions);
 
-  // 마커 옵션 설정
-  var markerOptions = {
-      position: new naver.maps.LatLng({{ .Site.Params.features.map.latitude }}, {{ .Site.Params.features.map.longitude }}),  // 마커 위치를 동일한 위도와 경도로 설정
+  // 지도가 로드된 후 마커 생성
+  naver.maps.Event.addListener(map, "idle", function () {
+    var markerOptions = {
+      position: new naver.maps.LatLng(37.5665, 126.978), // 마커 위치 설정
       map: map,
-      title: "JBNU"  // 마커에 표시할 텍스트
-  };
+      title: "JBNU", // 마커에 표시할 텍스트
+    };
 
-  // 마커 생성
-  var marker = new naver.maps.Marker(markerOptions);
+    // 마커 생성
+    var marker = new naver.maps.Marker(markerOptions);
+  });
 </script>
