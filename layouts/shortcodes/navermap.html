@@ -1,4 +1,4 @@
-<div id="map" style="width: 100%; height: 400px"></div>
+<!-- <div id="map" style="width: 100%; height: 400px"></div>
 
 <script
   type="text/javascript"
@@ -29,4 +29,36 @@
 
   // 인포윈도우를 바로 열어서 항상 텍스트와 하이퍼링크 표시
   infoWindow.open(map, marker);
+</script>
+ -->
+
+<div id="map" style="width: 100%; height: 400px"></div>
+
+<script
+  type="text/javascript"
+  src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId={{ .Site.Params.features.map.api_key }}"
+></script>
+<script>
+  var mapOptions = {
+      center: new naver.maps.LatLng({{ .Site.Params.features.map.latitude }}, {{ .Site.Params.features.map.longitude }}),
+      zoom: {{ .Site.Params.features.map.zoom }}
+  };
+
+  // 지도 생성
+  var map = new naver.maps.Map('map', mapOptions);
+
+  // 마커 생성
+  var marker = new naver.maps.Marker({
+      position: new naver.maps.LatLng({{ .Site.Params.features.map.latitude }}, {{ .Site.Params.features.map.longitude }}),
+      map: map
+  });
+
+  // 텍스트 오버레이 생성 (텍스트 + 하이퍼링크)
+  var textOverlay = new naver.maps.CustomOverlay({
+      position: new naver.maps.LatLng({{ .Site.Params.features.map.latitude }}, {{ .Site.Params.features.map.longitude }}),
+      content: '<div style="color: black; font-size: 5px;"><a href="https://csai.jbnu.ac.kr/csai/index.do" target="_blank" style="text-decoration: none; color: blue;">컴퓨터공학부</a></div>',  // 하이퍼링크 추가
+      map: map,
+      zIndex: 1,  // 텍스트가 마커 위에 표시되도록 설정
+      yAnchor: 1  // 텍스트가 마커 위에 위치
+  });
 </script>
