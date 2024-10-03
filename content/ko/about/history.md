@@ -40,7 +40,7 @@ experience:
 
   - title: 완산고등학교
     company_url: "https://school.jbedu.kr/wansango"
-    company_logo: school
+    company_logo: wansan
     location: 전라북도 전주시
     date_start: "2017-03-01"
     date_end: "2020-02-28"
