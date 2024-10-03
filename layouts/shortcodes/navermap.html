@@ -1,4 +1,4 @@
-<!-- <div id="map" style="width: 100%; height: 400px"></div>
+<div id="map" style="width: 100%; height: 400px"></div>
 
 <script
   type="text/javascript"
@@ -29,51 +29,4 @@
 
   // 인포윈도우를 바로 열어서 항상 텍스트와 하이퍼링크 표시
   infoWindow.open(map, marker);
-</script> -->
-<div id="map" style="width: 100%; height: 400px"></div>
-
-<script
-  type="text/javascript"
-  src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId='YOUR_API_KEY_HERE'"
-></script>
-
-<script>
-  var mapOptions = {
-    center: new naver.maps.LatLng(35.945, 126.682), // 예시 위도와 경도
-    zoom: 14, // 줌 레벨 설정
-  };
-
-  // 지도 생성
-  var map = new naver.maps.Map("map", mapOptions);
-
-  // 마커 생성
-  var marker = new naver.maps.Marker({
-    position: new naver.maps.LatLng(35.945, 126.682),
-    map: map,
-  });
-
-  // CustomOverlay 생성 및 스타일 적용
-  var customOverlay = new naver.maps.CustomOverlay({
-    position: new naver.maps.LatLng(35.945, 126.682), // 마커 위치와 동일
-    content: `
-        <div style="
-          background-color: white;
-          border-radius: 8px;
-          padding: 10px;
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-          text-align: center;
-          font-size: 14px;
-          font-family: Arial, sans-serif;
-          color: #333;
-        ">
-          <a href="https://csai.jbnu.ac.kr/csai/index.do" target="_blank" 
-            style="text-decoration: none; color: #1E90FF; font-weight: bold;">
-            컴퓨터공학부
-          </a>
-        </div>
-      `,
-    map: map,
-    zIndex: 1,
-    yAnchor: 1, // 텍스트가 마커 바로 위에 위치하도록 설정
-  });
 </script>
