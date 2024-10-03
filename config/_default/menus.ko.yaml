@@ -32,10 +32,10 @@ main:
     name: 밥한끼
     url: /webdev/meal
     weight: 49
-  - parent: 웹 개발
-    name: Example
-    url: /webdev/example
-    weight: 50
+  # - parent: 웹 개발
+  #   name: Example
+  #   url: /webdev/example
+  #   weight: 50
 
   - name: 기타 프로젝트
     url: /etc
