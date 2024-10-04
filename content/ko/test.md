@@ -2,7 +2,7 @@
 title: test page
 
 # Listing view
-view: community/custom_card
+view: community/custom_card1
 banner:
   caption: ""
   image: ""
