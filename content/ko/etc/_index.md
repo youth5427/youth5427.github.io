@@ -2,7 +2,7 @@
 title: 기타 프로젝트
 
 # Listing view
-view: customview/list
+view: community/custom_card
 banner:
   caption: ""
   image: ""
