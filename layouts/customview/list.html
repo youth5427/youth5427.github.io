@@ -9,14 +9,14 @@
     <main>
       <h1>{{ .Title }}</h1>
 
-      <!-- 시작일과 종료일을 표시하는 부분 -->
-      <p><strong>Start Date:</strong> {{ .Params.start_date }}</p>
-      <p><strong>End Date:</strong> {{ .Params.end_date }}</p>
       <ul>
         {{ range .Pages }}
         <li>
           <a href="{{ .Permalink }}">{{ .Title }}</a>
           <p>{{ .Summary }}</p>
+          <!-- 시작일과 종료일을 표시하는 부분 -->
+          <p><strong>Start Date:</strong> {{ .start_date }}</p>
+          <p><strong>End Date:</strong> {{ .end_date }}</p>
         </li>
         {{ end }}
       </ul>
