@@ -4,7 +4,7 @@
     {{ partial "head.html" . }}
   </head>
   <body>
-    {{ partial "header.html" . }}
+    <!-- {{ partial "header.html" . }} -->
 
     <main>
       <h1>{{ .Title }}</h1>
@@ -12,8 +12,8 @@
       <ul>
         {{ range .Pages }}
         <li>
-          <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
-          <p>{{ .Summary }}</p>
+          <!-- <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
+          <p>{{ .Summary }}</p> -->
 
           <!-- 시작일과 종료일을 더 잘 보이게 강조 -->
           <div
