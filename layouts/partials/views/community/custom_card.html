@@ -9,9 +9,17 @@ $item.Params.summary | markdownify | emojify }} {{ else if $item.Params.abstract
 $summary = $item.Summary }} {{ end }} {{ $resource := partial
 "blox-core/functions/get_featured_image.html" $item }}
 
-<div style="display: flex; justify-content: center">
-  <!-- 부모 컨테이너를 flex로 설정 -->
-  <div class="card" style="width: 50%">
+<!-- 그리드 레이아웃 컨테이너 -->
+<div
+  class="grid-container"
+  style="
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  "
+>
+  <!-- 각 카드 -->
+  <div class="card" style="width: 100%">
     {{ with $resource }} {{ $image := .Resize "550x" }} {{ if ne
     $image.MediaType.SubType "gif" }} {{ $image = $image.Process "webp" }} {{
     end }}
