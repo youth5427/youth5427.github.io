@@ -10,6 +10,14 @@ sections:
     content:
       title: ""
       username: admin
+    design:
+      background:
+        image:
+          filename: background.jpg
+          # Optional: Set background image options
+          size: cover
+          position: center
+          parallax: false
 
   - block: slider
     content:
