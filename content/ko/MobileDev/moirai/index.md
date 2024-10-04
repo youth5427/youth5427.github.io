@@ -2,6 +2,8 @@
 title: MOIRAI
 summary: GPT API기반 예제 문제 생성 서비스
 date: 2024-05-31
+start_date: 2024-05-14 # 시작일 추가
+end_date: 2024-05-31 # 종료일 추가
 # link: https://github.com/youth5427/GPT_test
 ---
 

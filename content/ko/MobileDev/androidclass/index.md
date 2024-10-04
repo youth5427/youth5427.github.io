@@ -2,6 +2,8 @@
 title: 모바일프로그래밍 수강
 summary: 2023 2학기 모바일프로그래밍 수강
 date: 2023-12-31
+start_date: 2023-09-01 # 시작일 추가
+end_date: 2023-12-23 # 종료일 추가
 # link: https://github.com/youth5427/GPT_test
 ---
 

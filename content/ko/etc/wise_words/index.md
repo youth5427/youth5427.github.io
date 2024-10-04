@@ -4,6 +4,8 @@ summary: 창업아이템 경진대회 아이템
 tags:
   - etc
 date: 2024-09-30
+start_date: 2024-08-01 # 시작일 추가
+end_date: 2024-09-20 # 종료일 추가
 # external_link: https://github.com/youth5427/GPT_test
 ---
 

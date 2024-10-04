@@ -9,7 +9,7 @@ $item.Params.summary | markdownify | emojify }} {{ else if $item.Params.abstract
 $summary = $item.Summary }} {{ end }} {{ $resource := partial
 "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card">
+<div class="card" style="width: 50%">
   {{ with $resource }} {{ $image := .Resize "550x" }} {{ if ne
   $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a
