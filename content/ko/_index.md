@@ -123,4 +123,8 @@ sections:
     design:
       view: compact
       columns: "2"
+  - block: skills
+    content:
+      title: 테스트입니다.
+      username: admin
 ---

@@ -63,6 +63,22 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
+
+skills:
+  - name: 테스트
+    items:
+      - name: 사과
+        description:
+        percent: 100
+        icon:
+      - name: 배
+        description:
+        percent: 100
+        icon:
+      - name: 오렌지
+        description:
+        percent: 30
+        icon:
 ---
 
 유수현은 전북대학교 컴퓨터공학과 학생입니다. 그는 모바일과 웹 서비스에 관심이 있습니다.
