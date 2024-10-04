@@ -2,7 +2,7 @@
 title: 웹 개발
 
 # Listing view
-view: customview/list1
+view: customview/list1.html
 banner:
   caption: ""
   image: ""
