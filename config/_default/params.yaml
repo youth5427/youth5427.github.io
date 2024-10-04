@@ -48,7 +48,7 @@ header:
       filename: "icon.png"
     button:
       enable: true
-      text: ""
+      text: "유수현의 포트폴리오"
       url: "https://youth5427.github.io/"
 
 footer:
