@@ -130,3 +130,10 @@ sections:
       username: admin
       position: center
 ---
+
+<head>
+  <meta
+    name="google-site-verification"
+    content="xHci_YUV2_gCIuYfc4GuFCChQRAT7PhKzkqmPUj_b3k"
+  />
+</head>
