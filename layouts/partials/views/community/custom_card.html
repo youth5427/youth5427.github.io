@@ -9,7 +9,7 @@ $item.Params.summary | markdownify | emojify }} {{ else if $item.Params.abstract
 $summary = $item.Summary }} {{ end }} {{ $resource := partial
 "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card" style="width: 20%">
+<div class="card" style="width: 50%">
   {{ with $resource }} {{ $image := .Resize "550x" }} {{ if ne
   $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   <a
@@ -41,7 +41,12 @@ $summary = $item.Summary }} {{ end }} {{ $resource := partial
       </h4>
     </div>
 
-    {{ if $item.Params.authors }}
+    <!-- Display start_date and end_date -->
+    {{ if $item.Params.start_date }}
+    <p><strong>📅 Start Date:</strong> {{ $item.Params.start_date }}</p>
+    {{ end }} {{ if $item.Params.end_date }}
+    <p><strong>🕔 End Date:</strong> {{ $item.Params.end_date }}</p>
+    {{ end }} {{ if $item.Params.authors }}
     <div class="article-metadata">
       <div>{{ partial "page_metadata_authors" $item }}</div>
     </div>
