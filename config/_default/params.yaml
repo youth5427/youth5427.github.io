@@ -54,7 +54,7 @@ header:
     logo:
       text: ""
       # Logo filename in `assets/media/` folder
-      filename: "icon.png"
+      filename: "logo.png"
     button:
       enable: true
       text: "유수현의 포트폴리오"
