@@ -97,7 +97,7 @@ sections:
       sort_by: date
       sort_ascending: false
     design:
-      view: customview/list1
+      view: compact
       columns: "2"
 
   - block: collection
