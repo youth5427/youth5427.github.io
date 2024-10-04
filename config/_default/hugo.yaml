@@ -6,6 +6,14 @@
 title: 유수현의 포트폴리오 # Website name
 baseURL: "https://youth5427.github.io/" # Website URL
 
+# Open Graph settings (for social media previews)
+params:
+  description: "전북대학교 컴퓨터공학부 유수현"
+  author: "유수현"
+  ogImage: "icon.png" # 사이트를 대표하는 이미지의 경로
+  ogType: "website"
+  ogTitle: ""
+
 ############################
 ## PAGE OPTIONS
 ############################
