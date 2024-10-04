@@ -31,6 +31,15 @@ marketing:
     google: ""
     baidu: ""
 
+# Open Graph and Social Media settings
+social_media:
+  facebook:
+    app_id: ""
+    page_id: ""
+  twitter:
+    card_type: summary_large_image
+    site: "@GetResearchDev"
+
 # Site header
 
 header:
