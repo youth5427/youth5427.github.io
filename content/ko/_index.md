@@ -123,8 +123,10 @@ sections:
     design:
       view: compact
       columns: "2"
+
   - block: skills
     content:
-      title: 테스트입니다.
+      title: 개발 환경
       username: admin
+      position: center
 ---

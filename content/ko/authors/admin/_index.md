@@ -65,19 +65,19 @@ social:
 #email: ""
 
 skills:
-  - name: 테스트
+  - name: 개발 환경
     items:
-      - name: 사과
+      - name: 모바일
         description:
-        percent: 100
+        percent: 40
         icon:
-      - name: 배
+      - name: 웹
         description:
-        percent: 100
+        percent: 40
         icon:
-      - name: 오렌지
+      - name: 기타
         description:
-        percent: 30
+        percent: 20
         icon:
 ---
 
