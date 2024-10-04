@@ -12,11 +12,22 @@
       <ul>
         {{ range .Pages }}
         <li>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
+          <a href="{{ .Permalink }}"><h2>{{ .Title }}</h2></a>
           <p>{{ .Summary }}</p>
-          <!-- 시작일과 종료일을 표시하는 부분 -->
-          <p><strong>Start Date:</strong> {{ .start_date }}</p>
-          <p><strong>End Date:</strong> {{ .end_date }}</p>
+
+          <!-- 시작일과 종료일을 더 잘 보이게 강조 -->
+          <div
+            style="
+              margin-top: 10px;
+              padding: 10px;
+              border: 1px solid #ccc;
+              border-radius: 8px;
+              background-color: #f9f9f9;
+            "
+          >
+            <p><strong>📅 Start Date:</strong> {{ .start_date }}</p>
+            <p><strong>🕔 End Date:</strong> {{ .end_date }}</p>
+          </div>
         </li>
         {{ end }}
       </ul>
