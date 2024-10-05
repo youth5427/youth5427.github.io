@@ -30,7 +30,7 @@ experience:
     date_end: ""
     description: the Department of Computer Engineering at the University of Technology
 
-  - title: Republic of Korea Army
+  - title: <a href="https://www.army.mil.kr/english/index..do">Republic of Korea Army</a>
     company_url: "https://www.army.mil.kr/english/index..do"
     company_logo: army
     location: Gyeryong City, South Chungcheong Province
@@ -38,7 +38,7 @@ experience:
     date_end: "2023-01-27"
     description: Gyeryongdae Service Support Group Headquarters Battalion
 
-  - title: Wansan High School
+  - title: <a href="https://school.jbedu.kr/wansango">Wansan High School</a>
     company_url: "https://school.jbedu.kr/wansango"
     company_logo: wansan
     location: Jeonju City, North Jeolla Province
