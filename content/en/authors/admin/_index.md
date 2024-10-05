@@ -15,7 +15,7 @@ status:
 # Organizations/Affiliations
 organizations:
   - name: Jeonbuk National University
-    url: "http://www.jbnu.ac.kr"
+    url: "https://www.jbnu.ac.kr/eng/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Yoo SuHyeon is a computer engineering student at Jeonbuk National University. He is interested in mobile and web services.
