@@ -1,32 +1,25 @@
-# [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
+# 유수현의 포트폴리오
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+유수현의 포트폴리오 페이지는 전북대학교 컴퓨터공학부에서 학업 중인 유수현의 프로젝트와 경험을 담고 있습니다. 이 페이지는 모바일 및 웹 개발, 창업 아이디어 및 프로그램 개발에 대한 다양한 활동을 소개합니다.
 
-The **Hugo Portfolio Template** empowers you to easily create a portfolio website. Make it your own by choosing a color theme and grid layout!
+## 소개
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+전북대학교에서 컴퓨터공학을 전공 중인 유수현은 다양한 분야의 프로젝트 경험을 보유하고 있으며, 특히 모바일 및 웹 애플리케이션 개발에 관심이 많습니다. 본 포트폴리오는 개인 프로젝트 및 팀 프로젝트를 중심으로 작성되었으며, 최신 기술 트렌드와 학습한 내용을 기반으로 개발된 다양한 애플리케이션을 포함하고 있습니다.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+## 주 메뉴
 
-[Check out the latest demo](https://hugo-portfolio-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+### 1. MOIRAI
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+GPT 모델을 기반으로 한 **MOIRAI**는 사용자가 간편하게 문제를 제공받는 서비스입니다.
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+### 2. 밥한끼 (GPT 기반 메뉴 추천 서비스)
 
-## We ask you, humbly, to support this open source movement
+GPT 모델을 기반으로 한 **밥한끼**는 사용자가 간편하게 메뉴를 추천받을 수 있는 서비스입니다.
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+### 3. 창업 아이템 개발
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+교육용 프로그램 개발 및 창업 아이템 구상 등에도 참여하였으며, 혁신적인 아이디어와 창의적인 솔루션을 통해 여러 방면에서 문제 해결에 도전하였습니다.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+---
+
+유수현의 더 많은 프로젝트와 활동은 [포트폴리오 페이지](https://youth5427.github.io/)에서 확인하실 수 있습니다.
