@@ -11,5 +11,3 @@ banner:
 sort_by: date
 sort_ascending: false
 ---
-
-test
