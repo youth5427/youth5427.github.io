@@ -15,16 +15,7 @@ $summary = $item.Summary }} {{ end }} {{ $resource := partial
     {{ with $resource }} {{ $image := .Resize "550x" }} {{ if ne
     $image.MediaType.SubType "gif" }} {{ $image = $image.Process "webp" }} {{
     end }}
-    <a
-      href="{{ $link }}"
-      {{
-      $target
-      |
-      safeHTMLAttr
-      }}
-      class="card-image hover-overlay"
-      style="display: block; overflow: hidden"
-    >
+
       <img
         src="{{ $image.RelPermalink }}"
         height="{{ $image.Height }}"
