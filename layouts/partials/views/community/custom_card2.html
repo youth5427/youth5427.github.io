@@ -1,6 +1,8 @@
 <div style="display: flex; justify-content: center">
   <!-- 부모 컨테이너를 flex로 설정 -->
   <div class="card" style="width: 50%">
+    {{ $resource := .Resource }}
+    <!-- $resource 변수를 명시적으로 정의 -->
     {{ with $resource }} {{ $image := .Resize "550x" }} {{ if ne
     $image.MediaType.SubType "gif" }} {{ $image = $image.Process "webp" }} {{
     end }}
@@ -13,7 +15,17 @@
       }}
       class="card-image hover-overlay"
       style="overflow: hidden"
+      <!--
+      이미지
+      확대를
+      위해
+      부모
+      컨테이너에
+      overflow
+      설정
+      --
     >
+      >
       <img
         src="{{ $image.RelPermalink }}"
         height="{{ $image.Height }}"
@@ -22,8 +34,16 @@
         class="img-responsive"
         loading="lazy"
         style="margin-top: 15px; transition: transform 0.3s ease"
+        <!--
+        트랜지션
+        추가
+        --
+      />
       />
     </a>
+    {{ else }}
+    <p>이미지를 불러올 수 없습니다.</p>
+    <!-- $resource가 없을 때 표시 -->
     {{ end }}
 
     <div class="card-text">
@@ -59,6 +79,6 @@
 
 <style>
   .card-image:hover img {
-    transform: scale(1.2); /* 마우스 호버 시 이미지 확대 */
+    transform: scale(1.1); /* 마우스 호버 시 이미지 확대 */
   }
 </style>
