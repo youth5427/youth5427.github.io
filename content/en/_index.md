@@ -22,8 +22,8 @@ sections:
   - block: slider
     content:
       slides:
-        - title: '<span style="font-size:70%">Mobile development</span>'
-          content: '<span style="font-size:70%">Meet the Mobile Project!</span>'
+        - title: '<span style="font-size:70%">Mobile</span>'
+          content: '<span style="font-size:70%">Meet the Mobile Projects!</span>'
           align: center
           background:
             image:
@@ -38,8 +38,8 @@ sections:
             url: /en/mobiledev
           # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/space-gray-iphone-x-9e9PD9blAto
 
-        - title: '<span style="font-size:70%">Web development</span>'
-          content: '<span style="font-size:70%">Meet the Web Project!</span>'
+        - title: '<span style="font-size:70%">Web</span>'
+          content: '<span style="font-size:70%">Meet the Web Projects!</span>'
           align: center
           background:
             image:
@@ -55,7 +55,7 @@ sections:
           # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%A1%9C%EA%B3%A0-JySoEnr-eOg
 
         - title: '<span style="font-size:70%">Etc</span>'
-          content: '<span style="font-size:70%">Meet the etc project!</span>'
+          content: '<span style="font-size:70%">Meet the etc projects!</span>'
           align: center
           background:
             image:

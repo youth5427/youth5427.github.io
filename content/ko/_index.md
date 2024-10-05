@@ -79,7 +79,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: '<h1 style="font-size:38px">모바일 개발</h1>'
+      title: '<h1 style="font-size:38px">모바일</h1>'
       count: 2
       offset: 0
       order: desc
@@ -95,7 +95,7 @@ sections:
   - block: collection
     content:
       id: section-2
-      title: '<h1 style="font-size:38px">웹 개발</h1>'
+      title: '<h1 style="font-size:38px">웹</h1>'
       count: 2
       offset: 0
       order: desc
