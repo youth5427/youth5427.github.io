@@ -10,7 +10,7 @@ $target = "target=\"_blank\" rel=\"noopener\"" }} {{ end }}
     class="bg-gray-100 dark:bg-zinc-800 rounded-lg shadow-md p-4 group hover:bg-gray-200 dark:hover:bg-zinc-700 transition"
   >
     <!-- 이미지 섹션 -->
-    <div class="relative overflow-hidden rounded-md mb-3">
+    <div class="relative overflow-hidden rounded-md mb-3 group">
       {{ $item := .item }} {{ $fill_image := .config.fill_image | default true
       }} {{ $resource := partial "functions/get_featured_image.html" $item }} {{
       $anchor := $item.Params.image.focal_point | default "Center" }} {{ with
