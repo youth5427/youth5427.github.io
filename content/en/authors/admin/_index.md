@@ -1,12 +1,12 @@
 ---
 # Display name
-title: SuHyeon Yoo
+title: Yoo SuHyeon
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: "Computer engineering Student"
+role: A computer engineering student
 
 # Status emoji
 status:
@@ -18,7 +18,7 @@ organizations:
     url: "http://www.jbnu.ac.kr"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Yoo SuHyeon is a computer engineering student at Jeonbuk National University. He is interested in mobile and web services.
 
 #interests:
 #- Artificial Intelligence
@@ -44,7 +44,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: "youth5427@jbnu.ac.kr" # For a direct email link, use "mailto:test@example.org".
+    link: "mailto:youth5427@jbnu.ac.kr" # For a direct email link, use "mailto:test@example.org".
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/wowchemy
@@ -63,8 +63,25 @@ social:
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
+
+skills:
+  - name: Development environment
+    items:
+      - name: Mobile
+        description:
+        percent: 40
+        icon:
+      - name: Web
+        description:
+        percent: 40
+        icon:
+      - name: Etc
+        description:
+        percent: 20
+        icon:
 ---
 
-SuHyeon Yoo is a student of JBNU. He is interested in Mobile and Web Service.
+Yoo SuHyeon is a computer engineering student at Jeonbuk National University. <br>He is interested in mobile and web services.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}Download{{< /staticref >}} my Certificate_of_registration as a PDF.
+{{< googlemap >}}
