@@ -19,7 +19,3 @@ title: 안녕하세요!
 # See https://docs.hugoblox.com/get-started/#introduce-yourself
 author: admin
 ---
-
-#### 컨택
-
-- **이메일** : [youth5427@jbnu.ac.kr](mailto:youth5427@jbnu.ac.kr)
