@@ -1,5 +1,5 @@
 ---
-title: wise words
+title: Wise words
 summary: Start-up item contest item
 tags:
   - etc
