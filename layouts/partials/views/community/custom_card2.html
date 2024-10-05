@@ -1,59 +1,76 @@
-{{ $item := .item }} {{ $fill_image := .config.fill_image | default true }} {{
-$resource := partial "functions/get_featured_image.html" $item }} {{ $anchor :=
-$item.Params.image.focal_point | default "Center" }} {{ $link :=
-$item.Params.external_link | default $item.RelPermalink }} {{ $target := "" }}
-{{ if $item.Params.external_link }} {{ $link = $item.Params.external_link }} {{
-$target = "target=\"_blank\" rel=\"noopener\"" }} {{ end }}
+<div class="container mx-auto p-5">
+  <!-- 전체 카드들을 담는 컨테이너 -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <!-- 그리드 레이아웃으로 카드 배치 -->
 
-<div class="flex items-center bg-gray-100 dark:bg-zinc-800 p-3 rounded-lg">
-  {{ with $resource }} {{ $image := "" }} {{ if $fill_image }} {{ $image = .Fill
-  (printf "150x84 %s" $anchor) }}
-  <!-- 썸네일 크기 축소 -->
-  {{ else }} {{ $image = .Fit (printf "150x84 %s" $anchor) }}
-  <!-- 썸네일 크기 축소 -->
-  {{ end }} {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process
-  "webp" }}{{ end }}
+    {{ range .Pages }}
+    <!-- 여러 포스트를 반복해서 카드로 출력 -->
+    <div class="flex items-center bg-gray-100 dark:bg-zinc-800 p-3 rounded-lg">
+      {{ $item := . }} {{ $fill_image := .config.fill_image | default true }} {{
+      $resource := partial "functions/get_featured_image.html" $item }} {{
+      $anchor := $item.Params.image.focal_point | default "Center" }} {{ $link
+      := $item.Params.external_link | default $item.RelPermalink }} {{ $target
+      := "" }} {{ if $item.Params.external_link }} {{ $link =
+      $item.Params.external_link }} {{ $target = "target=\"_blank\"
+      rel=\"noopener\"" }} {{ end }} {{ with $resource }} {{ $image := "" }} {{
+      if $fill_image }} {{ $image = .Fill (printf "150x84 %s" $anchor) }}
+      <!-- 썸네일 크기 축소 -->
+      {{ else }} {{ $image = .Fit (printf "150x84 %s" $anchor) }}
+      <!-- 썸네일 크기 축소 -->
+      {{ end }} {{ if ne $image.MediaType.SubType "gif" }}{{ $image =
+      $image.Process "webp" }}{{ end }}
 
-  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="flex-shrink-0 mr-3">
-    <img
-      alt="{{ $item.Title | plainify }}"
-      class="rounded-md object-cover transition-all"
-      decoding="async"
-      loading="lazy"
-      src="{{ $image.RelPermalink }}"
-      width="150"
-      height="84"
-    />
-  </a>
-  {{ end }}
+      <a
+        href="{{ $link }}"
+        {{
+        $target
+        |
+        safeHTMLAttr
+        }}
+        class="flex-shrink-0 mr-3"
+      >
+        <img
+          alt="{{ $item.Title | plainify }}"
+          class="rounded-md object-cover transition-all"
+          decoding="async"
+          loading="lazy"
+          src="{{ $image.RelPermalink }}"
+          width="150"
+          height="84"
+        />
+      </a>
+      {{ end }}
 
-  <div class="flex-1">
-    <div class="flex flex-col justify-between">
-      <div>
-        {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
-        <a href="{{ .RelPermalink }}">
-          <span
-            class="text-xs font-medium uppercase text-primary-700 dark:text-primary-300"
-            >{{ .Page.LinkTitle }}</span
-          >
-        </a>
-        {{ end }}
+      <div class="flex-1">
+        <div class="flex flex-col justify-between">
+          <div>
+            {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
+            <a href="{{ .RelPermalink }}">
+              <span
+                class="text-xs font-medium uppercase text-primary-700 dark:text-primary-300"
+                >{{ .Page.LinkTitle }}</span
+              >
+            </a>
+            {{ end }}
+          </div>
+
+          <h2 class="text-sm font-semibold leading-snug mt-1 dark:text-white">
+            <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+              {{ $item.Title }} {{ if $target }} {{ partial "functions/get_icon"
+              (dict "name" "arrow-top-right-on-square" "attributes"
+              "class=\"inline-flex h-4 w-4 pl-1\"") }} {{ end }}
+            </a>
+          </h2>
+
+          <p class="text-xs mt-1 text-gray-500 dark:text-gray-400 line-clamp-2">
+            <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+              {{ ($item.Params.summary | default $item.Summary) | plainify |
+              htmlUnescape | chomp -}}
+            </a>
+          </p>
+        </div>
       </div>
-
-      <h2 class="text-sm font-semibold leading-snug mt-1 dark:text-white">
-        <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-          {{ $item.Title }} {{ if $target }} {{ partial "functions/get_icon"
-          (dict "name" "arrow-top-right-on-square" "attributes"
-          "class=\"inline-flex h-4 w-4 pl-1\"") }} {{ end }}
-        </a>
-      </h2>
-
-      <p class="text-xs mt-1 text-gray-500 dark:text-gray-400 line-clamp-2">
-        <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
-          {{ ($item.Params.summary | default $item.Summary) | plainify |
-          htmlUnescape | chomp -}}
-        </a>
-      </p>
     </div>
+    {{ end }}
   </div>
 </div>
