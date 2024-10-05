@@ -21,4 +21,5 @@ gpt-4-vision-preview모델을 이용하여 이미지에서 텍스트를 추출�
 gpt-3.5-turbo모델에 간단한 프롬프트 학습을 적용 레시피를 추천할 수 있게 개발했습니다.
 상황에 맞는 GPT모델을 활용함으로써 경제성을 더했습니다.</p>
 <a href="../../../uploads/choosemenuPlus/index.html" target="_blank">결과물 확인하기</a>
+<br>
 <a href="https://drive.google.com/drive/folders/1dFReNfh7t1GjP6GZzBDtSO07G9aLVPiX?usp=drive_link" target="_blank">관련 드라이브 확인하기</a>

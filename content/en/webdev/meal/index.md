@@ -21,4 +21,5 @@ Use the gpt-4-vision-preview model to extract text from images,
 We have developed a simple prompt learning on the gpt-3.5-turbo model to recommend recipes for applying simple prompt learning.
 Economic feasibility has been added by utilizing the GPT model that fits the situation.</p>
 <a href="../../../uploads/choosemenuPlus/index.html" target="_blank">Check the result</a>
+<br>
 <a href="https://drive.google.com/drive/folders/1dFReNfh7t1GjP6GZzBDtSO07G9aLVPiX?usp=drive_link" target="_blank">Check related drives</a>
