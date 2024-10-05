@@ -1,8 +1,17 @@
+{{ $item := .item }} {{ $has_attachments := partial "functions/has_attachments"
+$item }} {{ $link := $item.RelPermalink }} {{ $target := "" }} {{ if
+$item.Params.external_link }} {{ $link = $item.Params.external_link }} {{
+$target = "target=\"_blank\" rel=\"noopener\"" }} {{ end }} {{/* Get summary.
+*/}} {{ $summary := "" }} {{ if $item.Params.summary }} {{ $summary =
+$item.Params.summary | markdownify | emojify }} {{ else if $item.Params.abstract
+}} {{ $summary = $item.Params.abstract | markdownify | emojify | truncate
+(site.Params.abstract_length | default 135) }} {{ else if $item.Summary }} {{
+$summary = $item.Summary }} {{ end }} {{ $resource := partial
+"blox-core/functions/get_featured_image.html" $item }}
+
 <div style="display: flex; justify-content: center">
   <!-- 부모 컨테이너를 flex로 설정 -->
   <div class="card" style="width: 50%">
-    {{ $resource := .Resource }}
-    <!-- $resource 변수를 명시적으로 정의 -->
     {{ with $resource }} {{ $image := .Resize "550x" }} {{ if ne
     $image.MediaType.SubType "gif" }} {{ $image = $image.Process "webp" }} {{
     end }}
@@ -14,18 +23,8 @@
       safeHTMLAttr
       }}
       class="card-image hover-overlay"
-      style="overflow: hidden"
-      <!--
-      이미지
-      확대를
-      위해
-      부모
-      컨테이너에
-      overflow
-      설정
-      --
+      style="display: block; overflow: hidden"
     >
-      >
       <img
         src="{{ $image.RelPermalink }}"
         height="{{ $image.Height }}"
@@ -33,17 +32,9 @@
         alt="{{ $item.Title }}"
         class="img-responsive"
         loading="lazy"
-        style="margin-top: 15px; transition: transform 0.3s ease"
-        <!--
-        트랜지션
-        추가
-        --
-      />
+        style="margin-top: 15px; transition: transform 0.3s ease-in-out"
       />
     </a>
-    {{ else }}
-    <p>이미지를 불러올 수 없습니다.</p>
-    <!-- $resource가 없을 때 표시 -->
     {{ end }}
 
     <div class="card-text">
@@ -78,7 +69,7 @@
 </div>
 
 <style>
-  .card-image:hover img {
-    transform: scale(1.1); /* 마우스 호버 시 이미지 확대 */
+  .card-image img:hover {
+    transform: scale(1.3); /* 이미지 확대 */
   }
 </style>
