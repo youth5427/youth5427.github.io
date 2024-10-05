@@ -114,8 +114,8 @@ features:
     api_key: "wj58af9275" # 네이버 지도 API의 Client ID
     google: "AIzaSyAVT6eb7w3kF9sOiihjC0cZDf2zOwuM_RM"
     zoom: 15 # 줌 레벨 설정
-    latitude: 35.84601778960222 # 위도
-    longitude: 127.13441641898292 # 경도
+    latitude: 35.8468171 # 위도
+    longitude: 127.1299221 # 경도
 
 extensions:
   cms:
