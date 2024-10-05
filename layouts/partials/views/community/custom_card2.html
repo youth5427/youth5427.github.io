@@ -15,7 +15,7 @@ $summary = $item.Summary }} {{ end }} {{ $resource := partial
     {{ with $resource }} {{ $image := .Resize "550x" }} {{ if ne
     $image.MediaType.SubType "gif" }} {{ $image = $image.Process "webp" }} {{
     end }}
-
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
       <img
         src="{{ $image.RelPermalink }}"
         height="{{ $image.Height }}"
