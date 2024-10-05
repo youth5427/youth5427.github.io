@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: <a href="https://www.jbnu.ac.kr/eng/">Jeonbuk National University</a>
+  - title: <a href="https://www.jbnu.ac.kr/eng/" target="_blank">Jeonbuk National University</a>
     company_url: "https://www.jbnu.ac.kr/eng/"
     company_logo: JBNU
     location: Jeonju City, North Jeolla Province
@@ -30,7 +30,7 @@ experience:
     date_end: ""
     description: the Department of Computer Engineering at the University of Technology
 
-  - title: <a href="https://www.army.mil.kr/english/index..do">Republic of Korea Army</a>
+  - title: <a href="https://www.army.mil.kr/english/index..do" target="_blank">Republic of Korea Army</a>
     company_url: "https://www.army.mil.kr/english/index..do"
     company_logo: army
     location: Gyeryong City, South Chungcheong Province
@@ -38,7 +38,7 @@ experience:
     date_end: "2023-01-27"
     description: Gyeryongdae Service Support Group Headquarters Battalion
 
-  - title: <a href="https://school.jbedu.kr/wansango">Wansan High School</a>
+  - title: <a href="https://school.jbedu.kr/wansango" target="_blank">Wansan High School</a>
     company_url: "https://school.jbedu.kr/wansango"
     company_logo: wansan
     location: Jeonju City, North Jeolla Province
