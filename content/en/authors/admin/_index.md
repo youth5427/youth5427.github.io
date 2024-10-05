@@ -81,7 +81,7 @@ skills:
         icon:
 ---
 
-Yoo SuHyeon is a computer engineering student at Jeonbuk National University. <br>He is interested in mobile and web services.
+Suhyeon majors in computer engineering at Jeonbuk National University. <br>He is interested in mobile and web services.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}Certificate of registration{{< /staticref >}}
 {{< googlemap >}}
