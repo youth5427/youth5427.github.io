@@ -79,7 +79,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: '<a href="/mobiledev"<h1 style="font-size:38px">모바일</h1></a>'
+      title: '<a href="/mobiledev"><h1 style="font-size:38px">모바일</h1></a>'
       count: 2
       offset: 0
       order: desc
