@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yoo SuHyeon
+title: 유수현
 
 # Is this the primary user of the site?
 superuser: true
