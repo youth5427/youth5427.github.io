@@ -30,17 +30,6 @@ $target = "target=\"_blank\" rel=\"noopener\"" }} {{ end }}
 
     <!-- 텍스트 및 메타 정보 섹션 -->
     <div class="text-gray-800 dark:text-gray-300">
-      <div class="flex flex-wrap items-center text-xs space-x-2 mb-2">
-        <!-- 태그 -->
-        {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
-        <a
-          href="{{.RelPermalink}}"
-          class="inline-block text-primary-700 dark:text-primary-300 uppercase"
-          >{{ .Page.LinkTitle }}</a
-        >
-        {{end}}
-      </div>
-
       <!-- 제목 -->
       <h3 class="text-xl font-bold leading-snug dark:text-white">
         <a
@@ -55,6 +44,17 @@ $target = "target=\"_blank\" rel=\"noopener\"" }} {{ end }}
         {{ ($item.Params.summary | default $item.Summary) | plainify |
         htmlUnescape | chomp }}
       </p>
+
+      <!-- 시작 날짜 및 종료 날짜 -->
+      {{ if $item.Params.start_date }}
+      <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+        시작 날짜: {{ $item.Params.start_date | dateFormat "2006-01-02" }}
+      </p>
+      {{ end }} {{ if $item.Params.end_date }}
+      <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
+        종료 날짜: {{ $item.Params.end_date | dateFormat "2006-01-02" }}
+      </p>
+      {{ end }}
 
       <!-- 작성자 정보 -->
       {{ if .Params.authors }}
