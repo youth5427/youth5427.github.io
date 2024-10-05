@@ -13,17 +13,7 @@
       }}
       class="card-image hover-overlay"
       style="overflow: hidden"
-      <!--
-      이미지
-      확대를
-      위해
-      부모
-      컨테이너에
-      overflow
-      설정
-      --
     >
-      >
       <img
         src="{{ $image.RelPermalink }}"
         height="{{ $image.Height }}"
@@ -32,11 +22,6 @@
         class="img-responsive"
         loading="lazy"
         style="margin-top: 15px; transition: transform 0.3s ease"
-        <!--
-        트랜지션
-        추가
-        --
-      />
       />
     </a>
     {{ end }}
