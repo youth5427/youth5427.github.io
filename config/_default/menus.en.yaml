@@ -19,7 +19,7 @@ main:
     url: /mobiledev/moirai
     weight: 39
   - parent: Mobile development
-    name: Take mobile programming class
+    name: Taking a mobile programming course
     url: /mobiledev/androidclass
     weight: 40
 
