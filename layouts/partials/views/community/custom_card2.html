@@ -7,28 +7,26 @@ $target = "target=\"_blank\" rel=\"noopener\"" }} {{ end }}
 
 <div class="container mx-auto p-4">
   <div
-    class="group cursor-pointer bg-gray-100 dark:bg-zinc-800"
-    style="border-radius: 15px"
+    class="bg-gray-100 dark:bg-zinc-800 rounded-lg shadow-md p-4 group hover:bg-gray-200 dark:hover:bg-zinc-700 transition"
   >
     <!-- 이미지 섹션 -->
-    <div
-      class="overflow-hidden rounded-md transition-all hover:scale-105 dark:bg-gray-800"
-    >
+    <div class="relative overflow-hidden rounded-md mb-3">
       {{ $item := .item }} {{ $fill_image := .config.fill_image | default true
       }} {{ $resource := partial "functions/get_featured_image.html" $item }} {{
       $anchor := $item.Params.image.focal_point | default "Center" }} {{ with
-      $resource }} {{ $image := "" }} {{if $fill_image}} {{ $image = .Fill
-      (printf "960x540 %s" $anchor) }} {{else}} {{ $image = .Fit (printf
-      "960x540 %s" $anchor) }} {{end}} {{ if ne $image.MediaType.SubType "gif"
-      }}{{ $image = $image.Process "webp" }}{{ end }}
+      $resource }} {{ $image := "" }} {{ if $fill_image }} {{ $image = .Fill
+      (printf "960x540 %s" $anchor) }} {{ else }} {{ $image = .Fit (printf
+      "960x540 %s" $anchor) }} {{ end }} {{ if ne $image.MediaType.SubType "gif"
+      }} {{ $image = $image.Process "webp" }} {{ end }}
       <a href="{{ $link }}" class="block aspect-w-16 aspect-h-9">
+        <!-- 이미지 확대 기능 추가 -->
         <img
-          class="object-cover w-full h-48 rounded-md transition-transform duration-300 group-hover:scale-105"
+          class="object-cover w-full h-48 rounded-md transition-transform duration-300 transform group-hover:scale-105"
           src="{{ $image.RelPermalink }}"
           alt="{{ $item.Title | plainify }}"
         />
       </a>
-      {{end}}
+      {{ end }}
     </div>
 
     <!-- 텍스트 및 메타 정보 섹션 -->
