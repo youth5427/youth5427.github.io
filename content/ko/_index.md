@@ -95,7 +95,7 @@ sections:
   - block: collection
     content:
       id: section-2
-      title: '<h1 style="font-size:38px">웹</h1>'
+      title: '<a href="/webdev"><h1 style="font-size:38px">웹</h1></a>'
       count: 2
       offset: 0
       order: desc
@@ -111,7 +111,7 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: '<h1 style="font-size:38px">기타 프로젝트</h1>'
+      title: '<a href="/etc"><h1 style="font-size:38px">기타 프로젝트</h1></a>'
       count: 2
       offset: 0
       order: desc

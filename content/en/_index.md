@@ -79,7 +79,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: '<h1 style="font-size:38px">Mobile development</h1>'
+      title: '<a href="/en/mobiledev"><h1 style="font-size:38px">Mobile development</h1></a>'
       count: 2
       offset: 0
       order: desc
@@ -95,7 +95,7 @@ sections:
   - block: collection
     content:
       id: section-2
-      title: '<h1 style="font-size:38px">Web development</h1>'
+      title: '<a href="/en/webdev"><h1 style="font-size:38px">Web development</h1></a>'
       count: 2
       offset: 0
       order: desc
@@ -111,7 +111,7 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: '<h1 style="font-size:38px">Etc projects</h1>'
+      title: '<a href="/en/etc"><h1 style="font-size:38px">Etc projects</h1></a>'
       count: 2
       offset: 0
       order: desc
