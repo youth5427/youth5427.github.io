@@ -7,6 +7,6 @@ widget: experience
 weight: 50
 ---
 
-#### 컨택
+#### Contact
 
 - **Email** : [youth5427@jbnu.ac.kr](mailto:youth5427@jbnu.ac.kr)

@@ -1,24 +1,48 @@
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
 
 main:
   - name: Home
     url: /
     weight: 10
-  - name: about
+  - name: About
     url: about/
     weight: 20
 
-  - name: Projects
-    url: /
-    weight: 20
-  - parent: Projects
-    name: First
-    url: /
+  - name: Mobile development
+    url: /mobiledev
     weight: 30
-  - parent: Projects
-    name: second
-    url: /
-    weight: 30
+  - parent: Mobile development
+    name: MOIRAI
+    url: /mobiledev/moirai
+    weight: 39
+  - parent: Mobile development
+    name: Take mobile programming class
+    url: /mobiledev/androidclass
+    weight: 40
+
+  - name: Web development
+    url: /webdev
+    weight: 40
+  - parent: Web development
+    name: A meal
+    url: /webdev/meal
+    weight: 49
+  # - parent: 웹 개발
+  #   name: Example
+  #   url: /webdev/example
+  #   weight: 50
+
+  - name: Etc projects
+    url: /etc
+    weight: 50
+  - parent: Etc projects
+    name: Wise word
+    url: /etc/wise_words
+    weight: 59
+  - parent: Etc projects
+    name: Adoxx Project
+    url: /etc/adoxx
+    weight: 60
