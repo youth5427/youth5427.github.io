@@ -6,17 +6,16 @@ title: SuHyeon Yoo
 superuser: true
 
 # Role/position
-role: 'Computer engineering Student'
+role: "Computer engineering Student"
 
 # Status emoji
-status: 
+status:
   icon: 💻
 
 # Organizations/Affiliations
 organizations:
   - name: Jeonbuk National University
     url: "http://www.jbnu.ac.kr"
-
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
@@ -45,18 +44,17 @@ bio: My research interests include distributed robotics, mobile computing and pr
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'youth5427@jbnu.ac.kr' # For a direct email link, use "mailto:test@example.org".
+    link: "youth5427@jbnu.ac.kr" # For a direct email link, use "mailto:test@example.org".
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/wowchemy
   - icon: instagram
     icon_pack: fab
     link: https://instagram.com/youth_0831
-# Uncomment below for Github link
+  # Uncomment below for Github link
   - icon: github
     icon_pack: fab
     link: https://github.com/youth5427
-
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

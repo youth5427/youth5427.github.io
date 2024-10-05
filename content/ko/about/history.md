@@ -49,7 +49,3 @@ experience:
 design:
   columns: "1"
 ---
-
-#### 컨택
-
-- **이메일** : [youth5427@jbnu.ac.kr](mailto:youth5427@jbnu.ac.kr)
