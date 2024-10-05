@@ -1,61 +1,79 @@
-{{ $item := .item }} {{ $fill_image := .config.fill_image | default true }} {{
-$resource := partial "functions/get_featured_image.html" $item }} {{ $anchor :=
-$item.Params.image.focal_point | default "Center" }} {{ $link :=
-$item.Params.external_link | default $item.RelPermalink }} {{ $target := "" }}
-{{ if $item.Params.external_link }} {{ $link = $item.Params.external_link }} {{
-$target = "target=\"_blank\" rel=\"noopener\"" }} {{ end }}
+<div style="display: flex; justify-content: center">
+  <!-- 부모 컨테이너를 flex로 설정 -->
+  <div class="card" style="width: 50%">
+    {{ with $resource }} {{ $image := .Resize "550x" }} {{ if ne
+    $image.MediaType.SubType "gif" }} {{ $image = $image.Process "webp" }} {{
+    end }}
+    <a
+      href="{{ $link }}"
+      {{
+      $target
+      |
+      safeHTMLAttr
+      }}
+      class="card-image hover-overlay"
+      style="overflow: hidden"
+      <!--
+      이미지
+      확대를
+      위해
+      부모
+      컨테이너에
+      overflow
+      설정
+      --
+    >
+      >
+      <img
+        src="{{ $image.RelPermalink }}"
+        height="{{ $image.Height }}"
+        width="{{ $image.Width }}"
+        alt="{{ $item.Title }}"
+        class="img-responsive"
+        loading="lazy"
+        style="margin-top: 15px; transition: transform 0.3s ease"
+        <!--
+        트랜지션
+        추가
+        --
+      />
+      />
+    </a>
+    {{ end }}
 
-<div class="container mx-auto p-4">
-  <div
-    class="bg-gray-100 dark:bg-zinc-800 rounded-lg shadow-md p-4 group hover:bg-gray-200 dark:hover:bg-zinc-700 transition"
-  >
-    <!-- 이미지 섹션 -->
-    <div class="relative overflow-hidden rounded-md mb-3 group">
-      {{ $item := .item }} {{ $fill_image := .config.fill_image | default true
-      }} {{ $resource := partial "functions/get_featured_image.html" $item }} {{
-      $anchor := $item.Params.image.focal_point | default "Center" }} {{ with
-      $resource }} {{ $image := "" }} {{ if $fill_image }} {{ $image = .Fill
-      (printf "960x540 %s" $anchor) }} {{ else }} {{ $image = .Fit (printf
-      "960x540 %s" $anchor) }} {{ end }} {{ if ne $image.MediaType.SubType "gif"
-      }} {{ $image = $image.Process "webp" }} {{ end }}
-      <a href="{{ $link }}" class="block aspect-w-16 aspect-h-9">
-        <!-- 이미지 확대 기능 추가 -->
-        <img
-          class="object-cover w-full h-48 rounded-md transition-transform duration-300 transform group-hover:scale-105"
-          src="{{ $image.RelPermalink }}"
-          alt="{{ $item.Title | plainify }}"
-        />
-      </a>
-      {{ end }}
-    </div>
+    <div class="card-text">
+      <div class="section-subheading article-title mb-1 mt-3">
+        <h4>
+          <a href="{{ $link }}" {{ $target | safeHTMLAttr }}>
+            {{ $item.Title | markdownify | emojify }}
+          </a>
+        </h4>
+      </div>
 
-    <!-- 텍스트 및 메타 정보 섹션 -->
-    <div class="text-gray-800 dark:text-gray-300">
-      <!-- 제목 -->
-      <h3 class="text-xl font-bold leading-snug dark:text-white">
-        <a
-          href="{{ $link }}"
-          class="hover:text-primary-500 dark:hover:text-primary-400 transition"
-          >{{ $item.Title }}</a
-        >
-      </h3>
-
-      <!-- 요약 -->
-      <p class="mt-2 text-sm text-gray-600 dark:text-gray-400 line-clamp-2">
-        {{ ($item.Params.summary | default $item.Summary) | plainify |
-        htmlUnescape | chomp }}
-      </p>
-
-      <!-- 시작 날짜 및 종료 날짜 -->
+      <!-- Display start_date and end_date -->
       {{ if $item.Params.start_date }}
-      <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
-        시작 날짜: {{ $item.Params.start_date | dateFormat "2006-01-02" }}
-      </p>
+      <p><strong>📅 Start Date:</strong> {{ $item.Params.start_date }}</p>
       {{ end }} {{ if $item.Params.end_date }}
-      <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">
-        종료 날짜: {{ $item.Params.end_date | dateFormat "2006-01-02" }}
-      </p>
+      <p><strong>🕔 End Date:</strong> {{ $item.Params.end_date }}</p>
+      {{ end }} {{ if $item.Params.authors }}
+      <div class="article-metadata">
+        <div>{{ partial "page_metadata_authors" $item }}</div>
+      </div>
+      {{ end }} {{ with $summary }}
+      <div class="article-style">
+        <p>{{ . }}</p>
+      </div>
+      {{ end }} {{ if $has_attachments }}
+      <div class="btn-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+      </div>
       {{ end }}
     </div>
   </div>
 </div>
+
+<style>
+  .card-image:hover img {
+    transform: scale(1.2); /* 마우스 호버 시 이미지 확대 */
+  }
+</style>
