@@ -35,7 +35,7 @@ sections:
           link:
             icon: mobile-alt
             icon_pack: fas
-            url: en/mobiledev
+            url: /en/mobiledev
           # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/space-gray-iphone-x-9e9PD9blAto
 
         - title: '<span style="font-size:70%">Web development</span>'
@@ -51,7 +51,7 @@ sections:
           link:
             icon: code
             icon_pack: fas
-            url: en/webdev
+            url: /en/webdev
           # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%A1%9C%EA%B3%A0-JySoEnr-eOg
 
         - title: '<span style="font-size:70%">Etc</span>'
@@ -67,7 +67,7 @@ sections:
           link:
             icon: laptop-code
             icon_pack: fas
-            url: en/etc
+            url: /en/etc
           # 출처: https://unsplash.com/ko/%EC%82%AC%EC%A7%84/macbook-pro-showing-programming-language-xrVDYZRGdw4
     design:
       slide_height: "350px"
