@@ -10,3 +10,4 @@ weight: 50
 #### Contact
 
 - **Email** : [youth5427@jbnu.ac.kr](mailto:youth5427@jbnu.ac.kr)
+- **Phone** : 010-2746-1965
