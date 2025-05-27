@@ -21,7 +21,14 @@ marketing:
     description: "전북대학교 컴퓨터공학부 유수현 자기소개 사이트입니다."
     twitter: "GetResearchDev"
     keywords:
-      ["전북대학교", "전북대", "유수현", "전북대 유수현", "전북대학교 유수현"]
+      [
+        "유수현",
+        "전북대 유수현",
+        "전북대학교 유수현",
+        "CUNY",
+        "CUNY Suhyeon Yoo",
+        "Suhyeon Yoo",
+      ]
   analytics:
     google_analytics: ""
     baidu_tongji: ""
