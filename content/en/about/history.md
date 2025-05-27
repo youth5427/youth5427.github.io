@@ -43,7 +43,7 @@ experience:
     location: Gyeryong City, South Chungcheong Province
     date_start: "2021-07-28"
     date_end: "2023-01-27"
-    description: Gyeryongdae Service Support Group Headquarters Battalion
+    description: Headquarters Battalion, Gyeryongdae Service Support Group
 
   - title: <a href="https://school.jbedu.kr/wansango" target="_blank">Wansan High School</a>
     company_url: "https://school.jbedu.kr/wansango"
