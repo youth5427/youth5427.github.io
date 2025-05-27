@@ -23,12 +23,19 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: <a href="https://www.jbnu.ac.kr/eng/" target="_blank">Jeonbuk National University</a>
+    company_url: "https://hunter.cuny.edu/"
+    company_logo:
+    location: 695 Park Ave, New York
+    date_start: "2025-01-25"
+    date_end: ""
+    description: The Department of Computer Science
+  - title: <a href="https://www.jbnu.ac.kr/eng/" target="_blank">Jeonbuk National University</a>
     company_url: "https://www.jbnu.ac.kr/eng/"
     company_logo: JBNU
     location: Jeonju City, North Jeolla Province
     date_start: "2020-03-02"
-    date_end: ""
-    description: the Department of Computer Engineering at the University of Technology
+    date_end: "2024-12-26"
+    description: The Department of Computer Engineering at the University of Technology
 
   - title: <a href="https://www.army.mil.kr/english/index..do" target="_blank">Republic of Korea Army</a>
     company_url: "https://www.army.mil.kr/english/index..do"
