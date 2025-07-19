@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: <a href="https://hunter.cuny.edu/" target="_blank">Hunter College of the City University of New York</a>
+  - title: <a href="https://hunter.cuny.edu/" target="_blank">Hunter College, City University of New York</a>
     company_url: "https://hunter.cuny.edu/"
     company_logo:
     location: 695 Park Ave, New York

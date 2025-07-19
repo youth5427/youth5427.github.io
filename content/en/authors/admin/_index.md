@@ -18,7 +18,7 @@ organizations:
     url: "https://hunter.cuny.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Yoo SuHyeon is a computer engineering student at Hunter College, City University of New York. He is interested in mobile and web services.
+bio: Suhyeon Yoo is a computer science student at Hunter College, City University of New York. He is interested in mobile and web services.
 
 #interests:
 #- Artificial Intelligence
@@ -81,7 +81,8 @@ skills:
         icon:
 ---
 
-Suhyeon majors in computer engineering at Jeonbuk National University. <br>He is interested in mobile and web services.
+Suhyeon majors in computer science at Hunter College, City University of New York. <br>He is interested in mobile and web services.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}Certificate of registration{{< /staticref >}}
+<!-- {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}Certificate of registration{{< /staticref >}} -->
+
 {{< googlemap >}}

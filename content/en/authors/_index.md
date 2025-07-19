@@ -10,4 +10,4 @@ cascade:
     list: always
 ---
 
-Yoo SuHyeon
+Suhyeon Yoo

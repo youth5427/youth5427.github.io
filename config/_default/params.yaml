@@ -28,6 +28,9 @@ marketing:
         "CUNY",
         "CUNY Suhyeon Yoo",
         "Suhyeon Yoo",
+        "HUNTER College",
+        "HUNTER Suhyeon Yoo",
+        "Suhyeon",
       ]
   analytics:
     google_analytics: ""
@@ -119,10 +122,10 @@ features:
   map:
     provider: "naver"
     api_key: "wj58af9275" # 네이버 지도 API의 Client ID
-    google: "AIzaSyAVT6eb7w3kF9sOiihjC0cZDf2zOwuM_RM"
+    google: "AIzaSyAVT6eb7w3kF9sOiihjC0cZDf2zOwuM_RM" # 구글 지도의 API
     zoom: 15 # 줌 레벨 설정
-    latitude: 35.8468171 # 위도
-    longitude: 127.1299221 # 경도
+    latitude: 40.767888545947606 # 위도,
+    longitude: -73.96454522455664 # 경도
 
 extensions:
   cms:
