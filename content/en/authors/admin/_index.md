@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Yoo SuHyeon
+title: Suhyeon Yoo
 
 # Is this the primary user of the site?
 superuser: true
@@ -14,11 +14,11 @@ status:
 
 # Organizations/Affiliations
 organizations:
-  - name: Jeonbuk National University
-    url: "https://www.jbnu.ac.kr/eng/"
+  - name: Hunter College, City University of New York
+    url: "https://hunter.cuny.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Yoo SuHyeon is a computer engineering student at Jeonbuk National University. He is interested in mobile and web services.
+bio: Yoo SuHyeon is a computer engineering student at Hunter College, City University of New York. He is interested in mobile and web services.
 
 #interests:
 #- Artificial Intelligence
@@ -44,7 +44,7 @@ bio: Yoo SuHyeon is a computer engineering student at Jeonbuk National Universit
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:youth5427@jbnu.ac.kr" # For a direct email link, use "mailto:test@example.org".
+    link: "mailto:SUHYEON.YOO33@myhunter.cuny.edu" # For a direct email link, use "mailto:test@example.org".
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/wowchemy
