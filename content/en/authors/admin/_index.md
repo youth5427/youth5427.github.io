@@ -6,7 +6,7 @@ title: Suhyeon Yoo
 superuser: true
 
 # Role/position
-role: A computer engineering student
+role: A computer science student
 
 # Status emoji
 status:
