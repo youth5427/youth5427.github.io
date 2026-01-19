@@ -10,10 +10,12 @@ external_link: https://csci-39548-homework1.netlify.app/
 ---
 
 <p style="font-size: 20px;">
-This repository contains the assignment for CSCI 39548: Practical Web Development at Hunter College(CUNY). This project is a full-stack web application that utilizes React for the frontend and MongoDB for data storage.
+This project is an assignment for CSCI 39548: Practical Web Development at Hunter College(CUNY). This is a full-stack web application that utilizes React for the frontend and MongoDB for data storage.
 <br><br>
-This website describes a Virtual Restaurant. It provides customers with information about the restaurant and lets them browse.
+This website describes a Virtual Restaurant. 
 <br><br>
+It provides customers with information about the restaurant and lets them browse.
+<br>
 Administrators can create, update, delete menu items. To minimise the project, the authentication process has been skipped.
 
 <br>
