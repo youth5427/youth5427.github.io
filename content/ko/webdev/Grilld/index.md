@@ -10,7 +10,7 @@ external_link: https://csci-39548-homework1.netlify.app/
 ---
 
 <p style="font-size: 20px;">
-이 프로젝트는 헌터 칼리지(CUNY)의 CSCI 39548: 실용 웹 개발 수업 중 과제입니다. 이 프로젝트는 프론트엔드에 React를, 데이터 저장소로 MongoDB를 활용하는 풀스택 웹 애플리케이션입니다.
+이 프로젝트는 헌터 칼리지(CUNY)의 CSCI 39548: 실용 웹 개발 수업 중 과제입니다. 프론트엔드에 React를, 데이터 저장소로 MongoDB를 활용하는 풀스택 웹 애플리케이션입니다.
 <br><br>
 이 웹사이트는 가상의 식당을 소개합니다. 
 <br><br>
