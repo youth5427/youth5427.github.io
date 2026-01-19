@@ -53,6 +53,7 @@ jobs:
         env:
           HUGO_ENVIRONMENT: production
           HUGO_CACHEDIR: /tmp/hugo_cache_runner
+          GOFLAGS: -modcacherw
         run: |
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
