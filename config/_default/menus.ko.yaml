@@ -29,6 +29,10 @@ main:
     url: /webdev
     weight: 40
   - parent: 웹 개발
+    name: Grilld
+    url: /webdev/Grilld
+    weight: 48
+  - parent: 웹 개발
     name: 밥한끼
     url: /webdev/meal
     weight: 49
