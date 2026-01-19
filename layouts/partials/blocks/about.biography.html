@@ -1,0 +1,19 @@
+{{- $page := .page | default . -}}
+{{- $block := .block | default dict -}}
+{{- $content := $block.content | default dict -}}
+{{- $username := $content.username | default "admin" -}}
+{{- $lang := $page.Language.Lang | default site.Language.Lang -}}
+{{- $author := site.GetPage (printf "/%s/authors/%s" $lang $username) -}}
+{{- $blockId := $block.id | default "" -}}
+
+<section{{ if $blockId }} id="{{ $blockId }}"{{ end }}>
+  <div class="block-about-biography">
+    {{- with $author -}}
+      {{- if .Title }}<h1>{{ .Title }}</h1>{{ end -}}
+      {{- with .Params.role }}<p>{{ . }}</p>{{ end -}}
+      {{- if .Content }}{{ .Content }}{{ end -}}
+    {{- else -}}
+      {{- with $content.title }}<h1>{{ . }}</h1>{{ end -}}
+    {{- end -}}
+  </div>
+</section>
