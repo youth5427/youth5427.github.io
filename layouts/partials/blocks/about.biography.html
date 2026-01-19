@@ -4,6 +4,9 @@
 {{- $username := $content.username | default "admin" -}}
 {{- $lang := $page.Language.Lang | default site.Language.Lang -}}
 {{- $author := site.GetPage (printf "/%s/authors/%s" $lang $username) -}}
+{{- if not $author -}}
+  {{- $author = site.GetPage (printf "/authors/%s" $username) -}}
+{{- end -}}
 {{- $blockId := $block.id | default "" -}}
 
 <section{{ if $blockId }} id="{{ $blockId }}"{{ end }}>
@@ -14,6 +17,7 @@
       {{- if .Content }}{{ .Content }}{{ end -}}
     {{- else -}}
       {{- with $content.title }}<h1>{{ . }}</h1>{{ end -}}
+      {{- if not $content.title }}<h1>{{ $username }}</h1>{{ end -}}
     {{- end -}}
   </div>
 </section>
