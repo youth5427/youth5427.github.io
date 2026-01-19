@@ -16,5 +16,5 @@ This website describes a Virtual Restaurant. It provides customers with informat
 <br><br>
 Administrators can create, update, delete menu items. To minimise the project, the authentication process has been skipped.
 
-<br><br>
+<br>
 <a href="https://github.com/youth5427/csci-39548-homework1" target="_blank">Go to related Github</a>
