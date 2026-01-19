@@ -16,7 +16,9 @@ external_link: https://csci-39548-homework1.netlify.app/
 <br><br>
 고객은 레스토랑 정보를 제공하고 탐색할 수 있습니다.
 <br>
-관리자는 메뉴를 추가하고, 수정하고, 삭제할 수 있습니다. 프로젝트 규모를 최소화하기 위해, 유저 인증 절차는 생략했습니다.
+관리자는 메뉴를 추가하고, 수정하고, 삭제할 수 있습니다. 
+<br><br>
+프로젝트 규모를 최소화하기 위해, 유저 인증 절차는 생략했습니다.
 
 <br>
 <a href="https://github.com/youth5427/csci-39548-homework1" target="_blank">Go to related Github</a>
