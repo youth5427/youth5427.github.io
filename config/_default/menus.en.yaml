@@ -27,8 +27,13 @@ main:
     url: /webdev
     weight: 40
   - parent: Web development
+    name: Grilld
+    url: /webdev/Grilld
+  - parent: Web development
     name: A meal
     url: /webdev/meal
+    weight: 49
+
     weight: 49
   # - parent: 웹 개발
   #   name: Example
