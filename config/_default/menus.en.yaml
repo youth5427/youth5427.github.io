@@ -29,6 +29,7 @@ main:
   - parent: Web development
     name: Grilld
     url: /webdev/Grilld
+    weight: 48
   - parent: Web development
     name: A meal
     url: /webdev/meal
