@@ -6,17 +6,15 @@ tags:
 date: 2026-01-19
 start_date: 2025-09-23 # 시작일 추가
 end_date: 2025-12-17 # 종료일 추가
-# external_link: https://drive.google.com/drive/folders/1dFReNfh7t1GjP6GZzBDtSO07G9aLVPiX?usp=drive_link
+external_link: https://github.com/youth5427/csci-39548-homework1
 ---
 
 <p style="font-size: 20px;">
-It is a project conducted in hackathon for 3 nights and 4 days at the "2024 Winter Handong University Big Data Camp" hosted by the 2024 Big Data Project Group.
-<br><br>
-It was designed through Pigma and utilized artificial intelligence through GPT API.
-<br><br>
-Use the gpt-4-vision-preview model to extract text from images,
-We have developed a simple prompt learning on the gpt-3.5-turbo model to recommend recipes for applying simple prompt learning.
-Economic feasibility has been added by utilizing the GPT model that fits the situation.</p>
-<a href="../../../uploads/choosemenuPlus/index.html" target="_blank">Check the result</a>
+This repository contains the assignment for CSCI 39548: Practical Web Development at Hunter College(CUNY). This project is a full-stack web application that utilizes React for the frontend and MongoDB for data storage.
 <br>
-<a href="https://drive.google.com/drive/folders/1dFReNfh7t1GjP6GZzBDtSO07G9aLVPiX?usp=drive_link" target="_blank">Check related drives</a>
+This website describes a Virtual Restaurant. It provides customers with information about the restaurant and lets them browse.
+<br>
+Administrators can create, update, delete menu items. To minimise the project, the authentication process has been skipped.
+<a href="https://csci-39548-homework1.netlify.app/" target="_blank">View Live Demo</a>
+<br>
+<a href="https://github.com/youth5427/csci-39548-homework1" target="_blank">Check related Github</a>
