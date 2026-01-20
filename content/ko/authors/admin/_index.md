@@ -18,7 +18,7 @@ organizations:
     url: "https://hunter.cuny.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 유수현은 헌터칼리지 컴퓨터공학과 학생입니다. 모바일과 웹 서비스에 관심이 있습니다.
+bio: 뉴욕시립대학교, 헌터칼리지에서 컴퓨터공학을 전공하고 있습니다. 모바일과 웹 서비스에 관심이 있습니다.
 
 #interests:
 #- Artificial Intelligence
@@ -81,7 +81,7 @@ skills:
         icon:
 ---
 
-유수현은 뉴욕시립대학교, 헌터칼리지에서 컴퓨터공학을 전공하고 있습니다. <br>저는 모바일과 웹 서비스에 관심이 있습니다.
+뉴욕시립대학교, 헌터칼리지에서 컴퓨터공학을 전공하고 있습니다. <br>모바일과 웹 서비스에 관심이 있습니다.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Certificate_of_registration.pdf" "newtab" >}}재학증명서{{< /staticref >}}
 {{< googlemap >}}
