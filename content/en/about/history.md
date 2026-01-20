@@ -24,23 +24,24 @@ date_format: Jan 2006
 experience:
   - title: <a href="https://hunter.cuny.edu/" target="_blank">Hunter College, City University of New York</a>
     company_url: "https://hunter.cuny.edu/"
-    company_logo:
-    location: 695 Park Ave, New York
+    company_logo: HUNTER
+    location: New York, New York
     date_start: "2025-01-25"
     date_end: ""
     description: The Department of Computer Science
+
   - title: <a href="https://www.jbnu.ac.kr/eng/" target="_blank">Jeonbuk National University</a>
     company_url: "https://www.jbnu.ac.kr/eng/"
     company_logo: JBNU
-    location: Jeonju City, North Jeolla Province
+    location: Jeonju-si, Jeonbuk-do, Republic of Korea
     date_start: "2020-03-02"
     date_end: "2024-12-26"
-    description: The Department of Computer Engineering at the University of Technology
+    description: Computer Science and Engineering
 
   - title: <a href="https://www.army.mil.kr/english/index..do" target="_blank">Republic of Korea Army</a>
     company_url: "https://www.army.mil.kr/english/index..do"
     company_logo: army
-    location: Gyeryong City, South Chungcheong Province
+    location: Gyeryong-si, Chungcheongnam-do, Republic of Korea
     date_start: "2021-07-28"
     date_end: "2023-01-27"
     description: Headquarters Battalion, Gyeryongdae Service Support Group
@@ -48,7 +49,7 @@ experience:
   - title: <a href="https://school.jbedu.kr/wansango" target="_blank">Wansan High School</a>
     company_url: "https://school.jbedu.kr/wansango"
     company_logo: wansan
-    location: Jeonju City, North Jeolla Province
+    location: Jeonju-si, Jeonbuk-do, Republic of Korea
     date_start: "2017-03-01"
     date_end: "2020-02-28"
     description: Science and Engineering

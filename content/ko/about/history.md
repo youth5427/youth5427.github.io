@@ -22,12 +22,20 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: <a href="https://hunter.cuny.edu/" target="_blank">헌터 칼리지, 뉴욕시립대학교</a>
+    company_url: "https://hunter.cuny.edu/"
+    company_logo: HUNTER
+    location: New York, New York
+    date_start: "2025-01-25"
+    date_end: ""
+    description: 컴퓨터과학부
+
   - title: <a href="https://www.jbnu.ac.kr" target="_blank">전북대학교</a>
     company_url: "https://www.jbnu.ac.kr"
     company_logo: JBNU
     location: 전북특별자치도 전주시
     date_start: "2020-03-02"
-    date_end: ""
+    date_end: "2024-12-26"
     description: 공과대학 컴퓨터공학부
 
   - title: <a href="https://www.army.mil.kr/sites/army/index.do" target="_blank">대한민국 육군</a>
